@@ -37,7 +37,7 @@ function project(v){const x=v[0]-center[0],y=v[1]-center[1],z=v[2]-center[2],a=x
 const mode=surfaceMode(),shape=mode==='heat'?heat(current):null;
 const legend=document.getElementById('heatLegend');
 if(legend){legend.hidden=!shape;if(shape){const text=shape.max<.00001?'0.00':shape.max.toFixed(2);document.getElementById('heatMin').textContent='−'+text+' mm';document.getElementById('heatMax').textContent='+'+text+' mm';}}
-if(gpu)gpu.draw(base,current,yaw,pitch,center,viewSize,document.getElementById('showBaseline').checked,mode==='regions',false,activeSide,{zoom:zoom,tint:shape?shape.tint:null,wire:shape?[.09,.19,.17,.3]:null});
+if(gpu)gpu.draw(base,current,yaw,pitch,center,viewSize,false,mode==='regions',false,activeSide,{zoom:zoom,tint:shape?shape.tint:null,wire:shape?[.09,.19,.17,.3]:null});
 else {ctx.fillStyle='#235c50';ctx.font='14px system-ui';ctx.fillText('3D graphics unavailable. Enable hardware acceleration in your browser.',20,40);}
 
 // Outline of the cross-section currently shown in the slice panel.
@@ -66,7 +66,7 @@ shared.slice=null;
 if(window.dispatchEvent&&typeof CustomEvent==='function')window.dispatchEvent(new CustomEvent('grip-view-updated',{detail:{base:base,current:current,center:center.slice(),size:size.slice(),metrics:metrics,result:result}}));
 scheduleDraw();}
 function on(id,type,handler){const el=document.getElementById(id);if(el&&el.addEventListener)el.addEventListener(type,handler);}
-for(const id of ['showBaseline','showRegions','showSlice','surfaceMode'])on(id,'change',scheduleDraw);
+for(const id of ['showRegions','showSlice','surfaceMode'])on(id,'change',scheduleDraw);
 canvas.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);});canvas.addEventListener('pointermove',e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.01;pitch+=(e.clientY-drag[1])*.01;drag=[e.clientX,e.clientY];scheduleDraw();});for(const event of ['pointerup','pointercancel'])canvas.addEventListener(event,()=>{drag=null;scheduleDraw();});
 function setZoom(value){zoom=Math.max(.5,Math.min(6,value));scheduleDraw();}
 canvas.addEventListener('wheel',e=>{e.preventDefault();setZoom(zoom*(e.deltaY<0?1.1:1/1.1));},{passive:false});
