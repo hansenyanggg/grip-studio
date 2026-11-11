@@ -1,0 +1,1172 @@
+[
+  {
+    "name": "female_P01_thickness_0.85",
+    "hand": {
+      "hand_length": 160.0,
+      "hand_breadth": 76.0,
+      "grip_diameter_inside": 45.44696500675976,
+      "thumb_length": 58.10526315789473,
+      "thumb_breadth": 22.35294117647059,
+      "thumb_thickness": 16.72,
+      "finger_lengths": [
+        58.734939759036145,
+        65.0,
+        57.16867469879518,
+        48.554216867469876
+      ],
+      "finger_widths": [
+        19.67058823529412,
+        20.564705882352943,
+        17.88235294117647,
+        16.094117647058823
+      ],
+      "finger_thicknesses": [
+        16.72,
+        15.2,
+        14.44,
+        11.4
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "female_P01",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 160.0,
+      "hand_breadth_mm": 76.0,
+      "measured_palm_length_mm": 95.0,
+      "estimated_grip_mm": 45.44696500675976
+    }
+  },
+  {
+    "name": "female_P01_thickness_1",
+    "hand": {
+      "hand_length": 160.0,
+      "hand_breadth": 76.0,
+      "grip_diameter_inside": 45.44696500675976,
+      "thumb_length": 58.10526315789473,
+      "thumb_breadth": 22.35294117647059,
+      "thumb_thickness": 19.67058823529412,
+      "finger_lengths": [
+        58.734939759036145,
+        65.0,
+        57.16867469879518,
+        48.554216867469876
+      ],
+      "finger_widths": [
+        19.67058823529412,
+        20.564705882352943,
+        17.88235294117647,
+        16.094117647058823
+      ],
+      "finger_thicknesses": [
+        19.67058823529412,
+        17.88235294117647,
+        16.988235294117647,
+        13.411764705882353
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "female_P01",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 160.0,
+      "hand_breadth_mm": 76.0,
+      "measured_palm_length_mm": 95.0,
+      "estimated_grip_mm": 45.44696500675976
+    }
+  },
+  {
+    "name": "female_P01_thickness_1.15",
+    "hand": {
+      "hand_length": 160.0,
+      "hand_breadth": 76.0,
+      "grip_diameter_inside": 45.44696500675976,
+      "thumb_length": 58.10526315789473,
+      "thumb_breadth": 22.35294117647059,
+      "thumb_thickness": 22.621176470588235,
+      "finger_lengths": [
+        58.734939759036145,
+        65.0,
+        57.16867469879518,
+        48.554216867469876
+      ],
+      "finger_widths": [
+        19.67058823529412,
+        20.564705882352943,
+        17.88235294117647,
+        16.094117647058823
+      ],
+      "finger_thicknesses": [
+        22.621176470588235,
+        20.56470588235294,
+        19.536470588235293,
+        15.423529411764704
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "female_P01",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 160.0,
+      "hand_breadth_mm": 76.0,
+      "measured_palm_length_mm": 95.0,
+      "estimated_grip_mm": 45.44696500675976
+    }
+  },
+  {
+    "name": "female_P05_thickness_0.85",
+    "hand": {
+      "hand_length": 165.0,
+      "hand_breadth": 77.0,
+      "grip_diameter_inside": 46.425644721834445,
+      "thumb_length": 59.92105263157895,
+      "thumb_breadth": 22.647058823529413,
+      "thumb_thickness": 16.94,
+      "finger_lengths": [
+        59.63855421686747,
+        66.0,
+        58.04819277108434,
+        49.30120481927711
+      ],
+      "finger_widths": [
+        19.929411764705883,
+        20.83529411764706,
+        18.11764705882353,
+        16.305882352941175
+      ],
+      "finger_thicknesses": [
+        16.94,
+        15.399999999999999,
+        14.629999999999999,
+        11.549999999999999
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "female_P05",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 165.0,
+      "hand_breadth_mm": 77.0,
+      "measured_palm_length_mm": 99.0,
+      "estimated_grip_mm": 46.425644721834445
+    }
+  },
+  {
+    "name": "female_P05_thickness_1",
+    "hand": {
+      "hand_length": 165.0,
+      "hand_breadth": 77.0,
+      "grip_diameter_inside": 46.425644721834445,
+      "thumb_length": 59.92105263157895,
+      "thumb_breadth": 22.647058823529413,
+      "thumb_thickness": 19.929411764705883,
+      "finger_lengths": [
+        59.63855421686747,
+        66.0,
+        58.04819277108434,
+        49.30120481927711
+      ],
+      "finger_widths": [
+        19.929411764705883,
+        20.83529411764706,
+        18.11764705882353,
+        16.305882352941175
+      ],
+      "finger_thicknesses": [
+        19.929411764705883,
+        18.11764705882353,
+        17.211764705882352,
+        13.588235294117647
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "female_P05",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 165.0,
+      "hand_breadth_mm": 77.0,
+      "measured_palm_length_mm": 99.0,
+      "estimated_grip_mm": 46.425644721834445
+    }
+  },
+  {
+    "name": "female_P05_thickness_1.15",
+    "hand": {
+      "hand_length": 165.0,
+      "hand_breadth": 77.0,
+      "grip_diameter_inside": 46.425644721834445,
+      "thumb_length": 59.92105263157895,
+      "thumb_breadth": 22.647058823529413,
+      "thumb_thickness": 22.918823529411764,
+      "finger_lengths": [
+        59.63855421686747,
+        66.0,
+        58.04819277108434,
+        49.30120481927711
+      ],
+      "finger_widths": [
+        19.929411764705883,
+        20.83529411764706,
+        18.11764705882353,
+        16.305882352941175
+      ],
+      "finger_thicknesses": [
+        22.918823529411764,
+        20.835294117647056,
+        19.793529411764702,
+        15.626470588235293
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "female_P05",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 165.0,
+      "hand_breadth_mm": 77.0,
+      "measured_palm_length_mm": 99.0,
+      "estimated_grip_mm": 46.425644721834445
+    }
+  },
+  {
+    "name": "female_P50_thickness_0.85",
+    "hand": {
+      "hand_length": 180.0,
+      "hand_breadth": 79.0,
+      "grip_diameter_inside": 50.870847209788685,
+      "thumb_length": 65.36842105263158,
+      "thumb_breadth": 23.235294117647058,
+      "thumb_thickness": 17.380000000000003,
+      "finger_lengths": [
+        66.86746987951807,
+        74.0,
+        65.08433734939759,
+        55.27710843373494
+      ],
+      "finger_widths": [
+        20.447058823529414,
+        21.376470588235296,
+        18.58823529411765,
+        16.729411764705883
+      ],
+      "finger_thicknesses": [
+        17.380000000000003,
+        15.8,
+        15.01,
+        11.85
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "female_P50",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 180.0,
+      "hand_breadth_mm": 79.0,
+      "measured_palm_length_mm": 106.0,
+      "estimated_grip_mm": 50.870847209788685
+    }
+  },
+  {
+    "name": "female_P50_thickness_1",
+    "hand": {
+      "hand_length": 180.0,
+      "hand_breadth": 79.0,
+      "grip_diameter_inside": 50.870847209788685,
+      "thumb_length": 65.36842105263158,
+      "thumb_breadth": 23.235294117647058,
+      "thumb_thickness": 20.447058823529414,
+      "finger_lengths": [
+        66.86746987951807,
+        74.0,
+        65.08433734939759,
+        55.27710843373494
+      ],
+      "finger_widths": [
+        20.447058823529414,
+        21.376470588235296,
+        18.58823529411765,
+        16.729411764705883
+      ],
+      "finger_thicknesses": [
+        20.447058823529414,
+        18.58823529411765,
+        17.658823529411766,
+        13.941176470588236
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "female_P50",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 180.0,
+      "hand_breadth_mm": 79.0,
+      "measured_palm_length_mm": 106.0,
+      "estimated_grip_mm": 50.870847209788685
+    }
+  },
+  {
+    "name": "female_P50_thickness_1.15",
+    "hand": {
+      "hand_length": 180.0,
+      "hand_breadth": 79.0,
+      "grip_diameter_inside": 50.870847209788685,
+      "thumb_length": 65.36842105263158,
+      "thumb_breadth": 23.235294117647058,
+      "thumb_thickness": 23.514117647058825,
+      "finger_lengths": [
+        66.86746987951807,
+        74.0,
+        65.08433734939759,
+        55.27710843373494
+      ],
+      "finger_widths": [
+        20.447058823529414,
+        21.376470588235296,
+        18.58823529411765,
+        16.729411764705883
+      ],
+      "finger_thicknesses": [
+        23.514117647058825,
+        21.376470588235293,
+        20.30764705882353,
+        16.03235294117647
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "female_P50",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 180.0,
+      "hand_breadth_mm": 79.0,
+      "measured_palm_length_mm": 106.0,
+      "estimated_grip_mm": 50.870847209788685
+    }
+  },
+  {
+    "name": "female_P95_thickness_0.85",
+    "hand": {
+      "hand_length": 199.0,
+      "hand_breadth": 79.0,
+      "grip_diameter_inside": 54.34042496919201,
+      "thumb_length": 72.26842105263157,
+      "thumb_breadth": 23.235294117647058,
+      "thumb_thickness": 17.380000000000003,
+      "finger_lengths": [
+        70.48192771084338,
+        78.0,
+        68.60240963855422,
+        58.265060240963855
+      ],
+      "finger_widths": [
+        20.447058823529414,
+        21.376470588235296,
+        18.58823529411765,
+        16.729411764705883
+      ],
+      "finger_thicknesses": [
+        17.380000000000003,
+        15.8,
+        15.01,
+        11.85
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "female_P95",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 199.0,
+      "hand_breadth_mm": 79.0,
+      "measured_palm_length_mm": 121.0,
+      "estimated_grip_mm": 54.34042496919201
+    }
+  },
+  {
+    "name": "female_P95_thickness_1",
+    "hand": {
+      "hand_length": 199.0,
+      "hand_breadth": 79.0,
+      "grip_diameter_inside": 54.34042496919201,
+      "thumb_length": 72.26842105263157,
+      "thumb_breadth": 23.235294117647058,
+      "thumb_thickness": 20.447058823529414,
+      "finger_lengths": [
+        70.48192771084338,
+        78.0,
+        68.60240963855422,
+        58.265060240963855
+      ],
+      "finger_widths": [
+        20.447058823529414,
+        21.376470588235296,
+        18.58823529411765,
+        16.729411764705883
+      ],
+      "finger_thicknesses": [
+        20.447058823529414,
+        18.58823529411765,
+        17.658823529411766,
+        13.941176470588236
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "female_P95",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 199.0,
+      "hand_breadth_mm": 79.0,
+      "measured_palm_length_mm": 121.0,
+      "estimated_grip_mm": 54.34042496919201
+    }
+  },
+  {
+    "name": "female_P95_thickness_1.15",
+    "hand": {
+      "hand_length": 199.0,
+      "hand_breadth": 79.0,
+      "grip_diameter_inside": 54.34042496919201,
+      "thumb_length": 72.26842105263157,
+      "thumb_breadth": 23.235294117647058,
+      "thumb_thickness": 23.514117647058825,
+      "finger_lengths": [
+        70.48192771084338,
+        78.0,
+        68.60240963855422,
+        58.265060240963855
+      ],
+      "finger_widths": [
+        20.447058823529414,
+        21.376470588235296,
+        18.58823529411765,
+        16.729411764705883
+      ],
+      "finger_thicknesses": [
+        23.514117647058825,
+        21.376470588235293,
+        20.30764705882353,
+        16.03235294117647
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "female_P95",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 199.0,
+      "hand_breadth_mm": 79.0,
+      "measured_palm_length_mm": 121.0,
+      "estimated_grip_mm": 54.34042496919201
+    }
+  },
+  {
+    "name": "female_P99_thickness_0.85",
+    "hand": {
+      "hand_length": 207.0,
+      "hand_breadth": 81.0,
+      "grip_diameter_inside": 58.93137987871464,
+      "thumb_length": 75.17368421052632,
+      "thumb_breadth": 23.823529411764703,
+      "thumb_thickness": 17.82,
+      "finger_lengths": [
+        80.42168674698796,
+        89.0,
+        78.27710843373494,
+        66.48192771084338
+      ],
+      "finger_widths": [
+        20.96470588235294,
+        21.91764705882353,
+        19.058823529411764,
+        17.152941176470588
+      ],
+      "finger_thicknesses": [
+        17.82,
+        16.2,
+        15.389999999999999,
+        12.149999999999999
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "female_P99",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 207.0,
+      "hand_breadth_mm": 81.0,
+      "measured_palm_length_mm": 118.0,
+      "estimated_grip_mm": 58.93137987871464
+    }
+  },
+  {
+    "name": "female_P99_thickness_1",
+    "hand": {
+      "hand_length": 207.0,
+      "hand_breadth": 81.0,
+      "grip_diameter_inside": 58.93137987871464,
+      "thumb_length": 75.17368421052632,
+      "thumb_breadth": 23.823529411764703,
+      "thumb_thickness": 20.96470588235294,
+      "finger_lengths": [
+        80.42168674698796,
+        89.0,
+        78.27710843373494,
+        66.48192771084338
+      ],
+      "finger_widths": [
+        20.96470588235294,
+        21.91764705882353,
+        19.058823529411764,
+        17.152941176470588
+      ],
+      "finger_thicknesses": [
+        20.96470588235294,
+        19.058823529411764,
+        18.105882352941176,
+        14.294117647058822
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "female_P99",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 207.0,
+      "hand_breadth_mm": 81.0,
+      "measured_palm_length_mm": 118.0,
+      "estimated_grip_mm": 58.93137987871464
+    }
+  },
+  {
+    "name": "female_P99_thickness_1.15",
+    "hand": {
+      "hand_length": 207.0,
+      "hand_breadth": 81.0,
+      "grip_diameter_inside": 58.93137987871464,
+      "thumb_length": 75.17368421052632,
+      "thumb_breadth": 23.823529411764703,
+      "thumb_thickness": 24.109411764705882,
+      "finger_lengths": [
+        80.42168674698796,
+        89.0,
+        78.27710843373494,
+        66.48192771084338
+      ],
+      "finger_widths": [
+        20.96470588235294,
+        21.91764705882353,
+        19.058823529411764,
+        17.152941176470588
+      ],
+      "finger_thicknesses": [
+        24.109411764705882,
+        21.917647058823526,
+        20.82176470588235,
+        16.438235294117643
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "female_P99",
+      "n": 1986,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 207.0,
+      "hand_breadth_mm": 81.0,
+      "measured_palm_length_mm": 118.0,
+      "estimated_grip_mm": 58.93137987871464
+    }
+  },
+  {
+    "name": "male_P01_thickness_0.85",
+    "hand": {
+      "hand_length": 172.0,
+      "hand_breadth": 85.0,
+      "grip_diameter_inside": 50.12207986761394,
+      "thumb_length": 62.463157894736845,
+      "thumb_breadth": 25.0,
+      "thumb_thickness": 18.7,
+      "finger_lengths": [
+        65.96385542168674,
+        73.0,
+        64.20481927710843,
+        54.53012048192771
+      ],
+      "finger_widths": [
+        22.0,
+        23.0,
+        20.0,
+        18.0
+      ],
+      "finger_thicknesses": [
+        18.7,
+        17.0,
+        16.15,
+        12.75
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "male_P01",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 172.0,
+      "hand_breadth_mm": 85.0,
+      "measured_palm_length_mm": 99.0,
+      "estimated_grip_mm": 50.12207986761394
+    }
+  },
+  {
+    "name": "male_P01_thickness_1",
+    "hand": {
+      "hand_length": 172.0,
+      "hand_breadth": 85.0,
+      "grip_diameter_inside": 50.12207986761394,
+      "thumb_length": 62.463157894736845,
+      "thumb_breadth": 25.0,
+      "thumb_thickness": 22.0,
+      "finger_lengths": [
+        65.96385542168674,
+        73.0,
+        64.20481927710843,
+        54.53012048192771
+      ],
+      "finger_widths": [
+        22.0,
+        23.0,
+        20.0,
+        18.0
+      ],
+      "finger_thicknesses": [
+        22.0,
+        20.0,
+        19.0,
+        15.0
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "male_P01",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 172.0,
+      "hand_breadth_mm": 85.0,
+      "measured_palm_length_mm": 99.0,
+      "estimated_grip_mm": 50.12207986761394
+    }
+  },
+  {
+    "name": "male_P01_thickness_1.15",
+    "hand": {
+      "hand_length": 172.0,
+      "hand_breadth": 85.0,
+      "grip_diameter_inside": 50.12207986761394,
+      "thumb_length": 62.463157894736845,
+      "thumb_breadth": 25.0,
+      "thumb_thickness": 25.299999999999997,
+      "finger_lengths": [
+        65.96385542168674,
+        73.0,
+        64.20481927710843,
+        54.53012048192771
+      ],
+      "finger_widths": [
+        22.0,
+        23.0,
+        20.0,
+        18.0
+      ],
+      "finger_thicknesses": [
+        25.299999999999997,
+        23.0,
+        21.849999999999998,
+        17.25
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "male_P01",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 172.0,
+      "hand_breadth_mm": 85.0,
+      "measured_palm_length_mm": 99.0,
+      "estimated_grip_mm": 50.12207986761394
+    }
+  },
+  {
+    "name": "male_P05_thickness_0.85",
+    "hand": {
+      "hand_length": 177.0,
+      "hand_breadth": 86.0,
+      "grip_diameter_inside": 49.82752003795346,
+      "thumb_length": 64.27894736842106,
+      "thumb_breadth": 25.294117647058822,
+      "thumb_thickness": 18.919999999999998,
+      "finger_lengths": [
+        63.25301204819277,
+        70.0,
+        61.566265060240966,
+        52.28915662650603
+      ],
+      "finger_widths": [
+        22.258823529411764,
+        23.270588235294117,
+        20.235294117647058,
+        18.211764705882352
+      ],
+      "finger_thicknesses": [
+        18.919999999999998,
+        17.2,
+        16.34,
+        12.899999999999999
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "male_P05",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 177.0,
+      "hand_breadth_mm": 86.0,
+      "measured_palm_length_mm": 107.0,
+      "estimated_grip_mm": 49.82752003795346
+    }
+  },
+  {
+    "name": "male_P05_thickness_1",
+    "hand": {
+      "hand_length": 177.0,
+      "hand_breadth": 86.0,
+      "grip_diameter_inside": 49.82752003795346,
+      "thumb_length": 64.27894736842106,
+      "thumb_breadth": 25.294117647058822,
+      "thumb_thickness": 22.258823529411764,
+      "finger_lengths": [
+        63.25301204819277,
+        70.0,
+        61.566265060240966,
+        52.28915662650603
+      ],
+      "finger_widths": [
+        22.258823529411764,
+        23.270588235294117,
+        20.235294117647058,
+        18.211764705882352
+      ],
+      "finger_thicknesses": [
+        22.258823529411764,
+        20.235294117647058,
+        19.223529411764705,
+        15.176470588235293
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "male_P05",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 177.0,
+      "hand_breadth_mm": 86.0,
+      "measured_palm_length_mm": 107.0,
+      "estimated_grip_mm": 49.82752003795346
+    }
+  },
+  {
+    "name": "male_P05_thickness_1.15",
+    "hand": {
+      "hand_length": 177.0,
+      "hand_breadth": 86.0,
+      "grip_diameter_inside": 49.82752003795346,
+      "thumb_length": 64.27894736842106,
+      "thumb_breadth": 25.294117647058822,
+      "thumb_thickness": 25.597647058823526,
+      "finger_lengths": [
+        63.25301204819277,
+        70.0,
+        61.566265060240966,
+        52.28915662650603
+      ],
+      "finger_widths": [
+        22.258823529411764,
+        23.270588235294117,
+        20.235294117647058,
+        18.211764705882352
+      ],
+      "finger_thicknesses": [
+        25.597647058823526,
+        23.270588235294113,
+        22.10705882352941,
+        17.452941176470585
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "male_P05",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 177.0,
+      "hand_breadth_mm": 86.0,
+      "measured_palm_length_mm": 107.0,
+      "estimated_grip_mm": 49.82752003795346
+    }
+  },
+  {
+    "name": "male_P50_thickness_0.85",
+    "hand": {
+      "hand_length": 193.0,
+      "hand_breadth": 90.0,
+      "grip_diameter_inside": 52.324922247139106,
+      "thumb_length": 70.08947368421053,
+      "thumb_breadth": 26.47058823529412,
+      "thumb_thickness": 19.799999999999997,
+      "finger_lengths": [
+        64.1566265060241,
+        71.0,
+        62.44578313253012,
+        53.036144578313255
+      ],
+      "finger_widths": [
+        23.294117647058822,
+        24.352941176470587,
+        21.176470588235293,
+        19.058823529411764
+      ],
+      "finger_thicknesses": [
+        19.799999999999997,
+        18.0,
+        17.099999999999998,
+        13.5
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "male_P50",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 193.0,
+      "hand_breadth_mm": 90.0,
+      "measured_palm_length_mm": 122.0,
+      "estimated_grip_mm": 52.324922247139106
+    }
+  },
+  {
+    "name": "male_P50_thickness_1",
+    "hand": {
+      "hand_length": 193.0,
+      "hand_breadth": 90.0,
+      "grip_diameter_inside": 52.324922247139106,
+      "thumb_length": 70.08947368421053,
+      "thumb_breadth": 26.47058823529412,
+      "thumb_thickness": 23.294117647058822,
+      "finger_lengths": [
+        64.1566265060241,
+        71.0,
+        62.44578313253012,
+        53.036144578313255
+      ],
+      "finger_widths": [
+        23.294117647058822,
+        24.352941176470587,
+        21.176470588235293,
+        19.058823529411764
+      ],
+      "finger_thicknesses": [
+        23.294117647058822,
+        21.176470588235293,
+        20.11764705882353,
+        15.882352941176471
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "male_P50",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 193.0,
+      "hand_breadth_mm": 90.0,
+      "measured_palm_length_mm": 122.0,
+      "estimated_grip_mm": 52.324922247139106
+    }
+  },
+  {
+    "name": "male_P50_thickness_1.15",
+    "hand": {
+      "hand_length": 193.0,
+      "hand_breadth": 90.0,
+      "grip_diameter_inside": 52.324922247139106,
+      "thumb_length": 70.08947368421053,
+      "thumb_breadth": 26.47058823529412,
+      "thumb_thickness": 26.788235294117644,
+      "finger_lengths": [
+        64.1566265060241,
+        71.0,
+        62.44578313253012,
+        53.036144578313255
+      ],
+      "finger_widths": [
+        23.294117647058822,
+        24.352941176470587,
+        21.176470588235293,
+        19.058823529411764
+      ],
+      "finger_thicknesses": [
+        26.788235294117644,
+        24.352941176470587,
+        23.135294117647057,
+        18.264705882352942
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "male_P50",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 193.0,
+      "hand_breadth_mm": 90.0,
+      "measured_palm_length_mm": 122.0,
+      "estimated_grip_mm": 52.324922247139106
+    }
+  },
+  {
+    "name": "male_P95_thickness_0.85",
+    "hand": {
+      "hand_length": 210.0,
+      "hand_breadth": 92.0,
+      "grip_diameter_inside": 59.22948743466076,
+      "thumb_length": 76.26315789473685,
+      "thumb_breadth": 27.058823529411764,
+      "thumb_thickness": 20.24,
+      "finger_lengths": [
+        77.71084337349397,
+        86.0,
+        75.63855421686748,
+        64.24096385542168
+      ],
+      "finger_widths": [
+        23.81176470588235,
+        24.89411764705882,
+        21.64705882352941,
+        19.48235294117647
+      ],
+      "finger_thicknesses": [
+        20.24,
+        18.4,
+        17.479999999999997,
+        13.799999999999999
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "male_P95",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 210.0,
+      "hand_breadth_mm": 92.0,
+      "measured_palm_length_mm": 124.0,
+      "estimated_grip_mm": 59.22948743466076
+    }
+  },
+  {
+    "name": "male_P95_thickness_1",
+    "hand": {
+      "hand_length": 210.0,
+      "hand_breadth": 92.0,
+      "grip_diameter_inside": 59.22948743466076,
+      "thumb_length": 76.26315789473685,
+      "thumb_breadth": 27.058823529411764,
+      "thumb_thickness": 23.81176470588235,
+      "finger_lengths": [
+        77.71084337349397,
+        86.0,
+        75.63855421686748,
+        64.24096385542168
+      ],
+      "finger_widths": [
+        23.81176470588235,
+        24.89411764705882,
+        21.64705882352941,
+        19.48235294117647
+      ],
+      "finger_thicknesses": [
+        23.81176470588235,
+        21.64705882352941,
+        20.56470588235294,
+        16.235294117647058
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "male_P95",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 210.0,
+      "hand_breadth_mm": 92.0,
+      "measured_palm_length_mm": 124.0,
+      "estimated_grip_mm": 59.22948743466076
+    }
+  },
+  {
+    "name": "male_P95_thickness_1.15",
+    "hand": {
+      "hand_length": 210.0,
+      "hand_breadth": 92.0,
+      "grip_diameter_inside": 59.22948743466076,
+      "thumb_length": 76.26315789473685,
+      "thumb_breadth": 27.058823529411764,
+      "thumb_thickness": 27.3835294117647,
+      "finger_lengths": [
+        77.71084337349397,
+        86.0,
+        75.63855421686748,
+        64.24096385542168
+      ],
+      "finger_widths": [
+        23.81176470588235,
+        24.89411764705882,
+        21.64705882352941,
+        19.48235294117647
+      ],
+      "finger_thicknesses": [
+        27.3835294117647,
+        24.89411764705882,
+        23.649411764705878,
+        18.670588235294115
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "male_P95",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 210.0,
+      "hand_breadth_mm": 92.0,
+      "measured_palm_length_mm": 124.0,
+      "estimated_grip_mm": 59.22948743466076
+    }
+  },
+  {
+    "name": "male_P99_thickness_0.85",
+    "hand": {
+      "hand_length": 218.0,
+      "hand_breadth": 93.0,
+      "grip_diameter_inside": 63.10143648362705,
+      "thumb_length": 79.16842105263159,
+      "thumb_breadth": 27.35294117647059,
+      "thumb_thickness": 20.46,
+      "finger_lengths": [
+        85.8433734939759,
+        95.0,
+        83.55421686746988,
+        70.96385542168674
+      ],
+      "finger_widths": [
+        24.07058823529412,
+        25.164705882352944,
+        21.88235294117647,
+        19.694117647058825
+      ],
+      "finger_thicknesses": [
+        20.46,
+        18.6,
+        17.67,
+        13.950000000000001
+      ]
+    },
+    "thickness_factor": 0.85,
+    "observed_dimensions": {
+      "label": "male_P99",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 218.0,
+      "hand_breadth_mm": 93.0,
+      "measured_palm_length_mm": 123.0,
+      "estimated_grip_mm": 63.10143648362705
+    }
+  },
+  {
+    "name": "male_P99_thickness_1",
+    "hand": {
+      "hand_length": 218.0,
+      "hand_breadth": 93.0,
+      "grip_diameter_inside": 63.10143648362705,
+      "thumb_length": 79.16842105263159,
+      "thumb_breadth": 27.35294117647059,
+      "thumb_thickness": 24.07058823529412,
+      "finger_lengths": [
+        85.8433734939759,
+        95.0,
+        83.55421686746988,
+        70.96385542168674
+      ],
+      "finger_widths": [
+        24.07058823529412,
+        25.164705882352944,
+        21.88235294117647,
+        19.694117647058825
+      ],
+      "finger_thicknesses": [
+        24.07058823529412,
+        21.88235294117647,
+        20.788235294117648,
+        16.411764705882355
+      ]
+    },
+    "thickness_factor": 1,
+    "observed_dimensions": {
+      "label": "male_P99",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 218.0,
+      "hand_breadth_mm": 93.0,
+      "measured_palm_length_mm": 123.0,
+      "estimated_grip_mm": 63.10143648362705
+    }
+  },
+  {
+    "name": "male_P99_thickness_1.15",
+    "hand": {
+      "hand_length": 218.0,
+      "hand_breadth": 93.0,
+      "grip_diameter_inside": 63.10143648362705,
+      "thumb_length": 79.16842105263159,
+      "thumb_breadth": 27.35294117647059,
+      "thumb_thickness": 27.681176470588237,
+      "finger_lengths": [
+        85.8433734939759,
+        95.0,
+        83.55421686746988,
+        70.96385542168674
+      ],
+      "finger_widths": [
+        24.07058823529412,
+        25.164705882352944,
+        21.88235294117647,
+        19.694117647058825
+      ],
+      "finger_thicknesses": [
+        27.681176470588237,
+        25.16470588235294,
+        23.906470588235294,
+        18.873529411764707
+      ]
+    },
+    "thickness_factor": 1.15,
+    "observed_dimensions": {
+      "label": "male_P99",
+      "n": 4082,
+      "percentile_dimension": "handlength",
+      "hand_length_mm": 218.0,
+      "hand_breadth_mm": 93.0,
+      "measured_palm_length_mm": 123.0,
+      "estimated_grip_mm": 63.10143648362705
+    }
+  }
+]

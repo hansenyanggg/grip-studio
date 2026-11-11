@@ -1,0 +1,4 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');const context=vm.createContext({window:{}});vm.runInContext(fs.readFileSync('assets/source-model.js','utf8')+fs.readFileSync('assets/hand-overlay.js','utf8'),context);
+const h=JSON.parse(JSON.stringify(context.GRIP_BASELINE)),build=context.window.buildGripSkeleton;
+for(const side of ['right','left']){const result=build(h,[0,0,0],side);for(const [i,name] of ['Index','Middle','Ring','Pinky','Thumb'].entries()){const bones=result.bones.filter(b=>b.digit===name);let length=0;for(const bone of bones)length+=Math.hypot(...bone.a.map((x,k)=>x-bone.b[k]));assert(Math.abs(length-(i===4?h.thumb_length:h.finger_lengths[i]))<1e-8);}}
+let missing=build({...h,finger_lengths:[75,0,73,62],thumb_length:null},[0,0,0],'right');assert(!missing.bones.some(b=>['Middle','Thumb','Thumb base'].includes(b.digit)));console.log('PASS: measured digit lengths in both hands; missing digits omitted');

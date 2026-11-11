@@ -1,0 +1,3391 @@
+{
+  "source": {
+    "finite": true,
+    "triangles": 13780,
+    "dimensions_mm": [
+      49.9088,
+      118.1373,
+      49.1075
+    ],
+    "signed_volume_mm3": -149556.4955062032,
+    "degenerate_faces": 40,
+    "new_degenerate_faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 10,
+    "unique_vertices": 6890,
+    "faces_rotated_over_90deg_from_source": 0,
+    "strict_crossing_pairs_lower_bound": 5
+  },
+  "cases": [
+    {
+      "name": "female_P01_thickness_0.85_right",
+      "hand": {
+        "hand_length": 160,
+        "hand_breadth": 76,
+        "grip_diameter_inside": 45.44696500675976,
+        "thumb_length": 58.10526315789473,
+        "thumb_breadth": 22.35294117647059,
+        "thumb_thickness": 16.72,
+        "finger_lengths": [
+          58.734939759036145,
+          65,
+          57.16867469879518,
+          48.554216867469876
+        ],
+        "finger_widths": [
+          19.67058823529412,
+          20.564705882352943,
+          17.88235294117647,
+          16.094117647058823
+        ],
+        "finger_thicknesses": [
+          16.72,
+          15.2,
+          14.44,
+          11.4
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 96505.83112657582,
+        "handle_length_mm": 105.94,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.6664,
+          105.9351,
+          42.7381
+        ],
+        "signed_volume_mm3": -96505.8310551161,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 98
+      }
+    },
+    {
+      "name": "female_P01_thickness_0.85_left",
+      "hand": {
+        "hand_length": 160,
+        "hand_breadth": 76,
+        "grip_diameter_inside": 45.44696500675976,
+        "thumb_length": 58.10526315789473,
+        "thumb_breadth": 22.35294117647059,
+        "thumb_thickness": 16.72,
+        "finger_lengths": [
+          58.734939759036145,
+          65,
+          57.16867469879518,
+          48.554216867469876
+        ],
+        "finger_widths": [
+          19.67058823529412,
+          20.564705882352943,
+          17.88235294117647,
+          16.094117647058823
+        ],
+        "finger_thicknesses": [
+          16.72,
+          15.2,
+          14.44,
+          11.4
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 96505.8311265764,
+        "handle_length_mm": 105.94,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.6664,
+          105.9351,
+          42.7381
+        ],
+        "signed_volume_mm3": -96505.83112854148,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 98
+      }
+    },
+    {
+      "name": "female_P01_thickness_1_right",
+      "hand": {
+        "hand_length": 160,
+        "hand_breadth": 76,
+        "grip_diameter_inside": 45.44696500675976,
+        "thumb_length": 58.10526315789473,
+        "thumb_breadth": 22.35294117647059,
+        "thumb_thickness": 19.67058823529412,
+        "finger_lengths": [
+          58.734939759036145,
+          65,
+          57.16867469879518,
+          48.554216867469876
+        ],
+        "finger_widths": [
+          19.67058823529412,
+          20.564705882352943,
+          17.88235294117647,
+          16.094117647058823
+        ],
+        "finger_thicknesses": [
+          19.67058823529412,
+          17.88235294117647,
+          16.988235294117647,
+          13.411764705882353
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 96258.03322152613,
+        "handle_length_mm": 105.94,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.673,
+          105.9351,
+          42.6922
+        ],
+        "signed_volume_mm3": -96258.0332009237,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 116,
+        "strict_crossing_pairs_lower_bound": 5
+      }
+    },
+    {
+      "name": "female_P01_thickness_1_left",
+      "hand": {
+        "hand_length": 160,
+        "hand_breadth": 76,
+        "grip_diameter_inside": 45.44696500675976,
+        "thumb_length": 58.10526315789473,
+        "thumb_breadth": 22.35294117647059,
+        "thumb_thickness": 19.67058823529412,
+        "finger_lengths": [
+          58.734939759036145,
+          65,
+          57.16867469879518,
+          48.554216867469876
+        ],
+        "finger_widths": [
+          19.67058823529412,
+          20.564705882352943,
+          17.88235294117647,
+          16.094117647058823
+        ],
+        "finger_thicknesses": [
+          19.67058823529412,
+          17.88235294117647,
+          16.988235294117647,
+          13.411764705882353
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 96258.03322152636,
+        "handle_length_mm": 105.94,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.673,
+          105.9351,
+          42.6922
+        ],
+        "signed_volume_mm3": -96258.03325413364,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 116
+      }
+    },
+    {
+      "name": "female_P01_thickness_1.15_right",
+      "hand": {
+        "hand_length": 160,
+        "hand_breadth": 76,
+        "grip_diameter_inside": 45.44696500675976,
+        "thumb_length": 58.10526315789473,
+        "thumb_breadth": 22.35294117647059,
+        "thumb_thickness": 22.621176470588235,
+        "finger_lengths": [
+          58.734939759036145,
+          65,
+          57.16867469879518,
+          48.554216867469876
+        ],
+        "finger_widths": [
+          19.67058823529412,
+          20.564705882352943,
+          17.88235294117647,
+          16.094117647058823
+        ],
+        "finger_thicknesses": [
+          22.621176470588235,
+          20.56470588235294,
+          19.536470588235293,
+          15.423529411764704
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 96016.36481364109,
+        "handle_length_mm": 105.94,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.6796,
+          105.9351,
+          42.6591
+        ],
+        "signed_volume_mm3": -96016.36479761153,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 124
+      }
+    },
+    {
+      "name": "female_P01_thickness_1.15_left",
+      "hand": {
+        "hand_length": 160,
+        "hand_breadth": 76,
+        "grip_diameter_inside": 45.44696500675976,
+        "thumb_length": 58.10526315789473,
+        "thumb_breadth": 22.35294117647059,
+        "thumb_thickness": 22.621176470588235,
+        "finger_lengths": [
+          58.734939759036145,
+          65,
+          57.16867469879518,
+          48.554216867469876
+        ],
+        "finger_widths": [
+          19.67058823529412,
+          20.564705882352943,
+          17.88235294117647,
+          16.094117647058823
+        ],
+        "finger_thicknesses": [
+          22.621176470588235,
+          20.56470588235294,
+          19.536470588235293,
+          15.423529411764704
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 96016.36481364169,
+        "handle_length_mm": 105.94,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.6796,
+          105.9351,
+          42.6591
+        ],
+        "signed_volume_mm3": -96016.364845964,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 124
+      }
+    },
+    {
+      "name": "female_P05_thickness_0.85_right",
+      "hand": {
+        "hand_length": 165,
+        "hand_breadth": 77,
+        "grip_diameter_inside": 46.425644721834445,
+        "thumb_length": 59.92105263157895,
+        "thumb_breadth": 22.647058823529413,
+        "thumb_thickness": 16.94,
+        "finger_lengths": [
+          59.63855421686747,
+          66,
+          58.04819277108434,
+          49.30120481927711
+        ],
+        "finger_widths": [
+          19.929411764705883,
+          20.83529411764706,
+          18.11764705882353,
+          16.305882352941175
+        ],
+        "finger_thicknesses": [
+          16.94,
+          15.399999999999999,
+          14.629999999999999,
+          11.549999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 100916.36704248273,
+        "handle_length_mm": 106.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.8124,
+          106.9758,
+          43.4298
+        ],
+        "signed_volume_mm3": -100916.36715910456,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 109
+      }
+    },
+    {
+      "name": "female_P05_thickness_0.85_left",
+      "hand": {
+        "hand_length": 165,
+        "hand_breadth": 77,
+        "grip_diameter_inside": 46.425644721834445,
+        "thumb_length": 59.92105263157895,
+        "thumb_breadth": 22.647058823529413,
+        "thumb_thickness": 16.94,
+        "finger_lengths": [
+          59.63855421686747,
+          66,
+          58.04819277108434,
+          49.30120481927711
+        ],
+        "finger_widths": [
+          19.929411764705883,
+          20.83529411764706,
+          18.11764705882353,
+          16.305882352941175
+        ],
+        "finger_thicknesses": [
+          16.94,
+          15.399999999999999,
+          14.629999999999999,
+          11.549999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 100916.36704248292,
+        "handle_length_mm": 106.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.8124,
+          106.9758,
+          43.4298
+        ],
+        "signed_volume_mm3": -100916.36709207791,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 109
+      }
+    },
+    {
+      "name": "female_P05_thickness_1_right",
+      "hand": {
+        "hand_length": 165,
+        "hand_breadth": 77,
+        "grip_diameter_inside": 46.425644721834445,
+        "thumb_length": 59.92105263157895,
+        "thumb_breadth": 22.647058823529413,
+        "thumb_thickness": 19.929411764705883,
+        "finger_lengths": [
+          59.63855421686747,
+          66,
+          58.04819277108434,
+          49.30120481927711
+        ],
+        "finger_widths": [
+          19.929411764705883,
+          20.83529411764706,
+          18.11764705882353,
+          16.305882352941175
+        ],
+        "finger_thicknesses": [
+          19.929411764705883,
+          18.11764705882353,
+          17.211764705882352,
+          13.588235294117647
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 100637.90967008054,
+        "handle_length_mm": 106.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.8155,
+          106.9758,
+          43.3323
+        ],
+        "signed_volume_mm3": -100637.90979032911,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 117,
+        "strict_crossing_pairs_lower_bound": 9
+      }
+    },
+    {
+      "name": "female_P05_thickness_1_left",
+      "hand": {
+        "hand_length": 165,
+        "hand_breadth": 77,
+        "grip_diameter_inside": 46.425644721834445,
+        "thumb_length": 59.92105263157895,
+        "thumb_breadth": 22.647058823529413,
+        "thumb_thickness": 19.929411764705883,
+        "finger_lengths": [
+          59.63855421686747,
+          66,
+          58.04819277108434,
+          49.30120481927711
+        ],
+        "finger_widths": [
+          19.929411764705883,
+          20.83529411764706,
+          18.11764705882353,
+          16.305882352941175
+        ],
+        "finger_thicknesses": [
+          19.929411764705883,
+          18.11764705882353,
+          17.211764705882352,
+          13.588235294117647
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 100637.90967008084,
+        "handle_length_mm": 106.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.8155,
+          106.9758,
+          43.3323
+        ],
+        "signed_volume_mm3": -100637.90978648847,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 117
+      }
+    },
+    {
+      "name": "female_P05_thickness_1.15_right",
+      "hand": {
+        "hand_length": 165,
+        "hand_breadth": 77,
+        "grip_diameter_inside": 46.425644721834445,
+        "thumb_length": 59.92105263157895,
+        "thumb_breadth": 22.647058823529413,
+        "thumb_thickness": 22.918823529411764,
+        "finger_lengths": [
+          59.63855421686747,
+          66,
+          58.04819277108434,
+          49.30120481927711
+        ],
+        "finger_widths": [
+          19.929411764705883,
+          20.83529411764706,
+          18.11764705882353,
+          16.305882352941175
+        ],
+        "finger_thicknesses": [
+          22.918823529411764,
+          20.835294117647056,
+          19.793529411764702,
+          15.626470588235293
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 100367.27465533816,
+        "handle_length_mm": 106.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.8185,
+          106.9758,
+          43.2712
+        ],
+        "signed_volume_mm3": -100367.2748080353,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 128
+      }
+    },
+    {
+      "name": "female_P05_thickness_1.15_left",
+      "hand": {
+        "hand_length": 165,
+        "hand_breadth": 77,
+        "grip_diameter_inside": 46.425644721834445,
+        "thumb_length": 59.92105263157895,
+        "thumb_breadth": 22.647058823529413,
+        "thumb_thickness": 22.918823529411764,
+        "finger_lengths": [
+          59.63855421686747,
+          66,
+          58.04819277108434,
+          49.30120481927711
+        ],
+        "finger_widths": [
+          19.929411764705883,
+          20.83529411764706,
+          18.11764705882353,
+          16.305882352941175
+        ],
+        "finger_thicknesses": [
+          22.918823529411764,
+          20.835294117647056,
+          19.793529411764702,
+          15.626470588235293
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 100367.27465533832,
+        "handle_length_mm": 106.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          43.8185,
+          106.9758,
+          43.2712
+        ],
+        "signed_volume_mm3": -100367.27467864065,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 128
+      }
+    },
+    {
+      "name": "female_P50_thickness_0.85_right",
+      "hand": {
+        "hand_length": 180,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 50.870847209788685,
+        "thumb_length": 65.36842105263158,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 17.380000000000003,
+        "finger_lengths": [
+          66.86746987951807,
+          74,
+          65.08433734939759,
+          55.27710843373494
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          17.380000000000003,
+          15.8,
+          15.01,
+          11.85
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 122018.87881250489,
+        "handle_length_mm": 110.95,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          46.3345,
+          110.9478,
+          46.0837
+        ],
+        "signed_volume_mm3": -122018.87879163482,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 81
+      }
+    },
+    {
+      "name": "female_P50_thickness_0.85_left",
+      "hand": {
+        "hand_length": 180,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 50.870847209788685,
+        "thumb_length": 65.36842105263158,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 17.380000000000003,
+        "finger_lengths": [
+          66.86746987951807,
+          74,
+          65.08433734939759,
+          55.27710843373494
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          17.380000000000003,
+          15.8,
+          15.01,
+          11.85
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 122018.87881250567,
+        "handle_length_mm": 110.95,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          46.3345,
+          110.9478,
+          46.0837
+        ],
+        "signed_volume_mm3": -122018.87873091798,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 81
+      }
+    },
+    {
+      "name": "female_P50_thickness_1_right",
+      "hand": {
+        "hand_length": 180,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 50.870847209788685,
+        "thumb_length": 65.36842105263158,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 20.447058823529414,
+        "finger_lengths": [
+          66.86746987951807,
+          74,
+          65.08433734939759,
+          55.27710843373494
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          20.447058823529414,
+          18.58823529411765,
+          17.658823529411766,
+          13.941176470588236
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121622.82745921718,
+        "handle_length_mm": 110.95,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          46.3649,
+          110.9478,
+          45.7709
+        ],
+        "signed_volume_mm3": -121622.82746624702,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 107,
+        "strict_crossing_pairs_lower_bound": 6
+      }
+    },
+    {
+      "name": "female_P50_thickness_1_left",
+      "hand": {
+        "hand_length": 180,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 50.870847209788685,
+        "thumb_length": 65.36842105263158,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 20.447058823529414,
+        "finger_lengths": [
+          66.86746987951807,
+          74,
+          65.08433734939759,
+          55.27710843373494
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          20.447058823529414,
+          18.58823529411765,
+          17.658823529411766,
+          13.941176470588236
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121622.82745921807,
+        "handle_length_mm": 110.95,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          46.3649,
+          110.9478,
+          45.7709
+        ],
+        "signed_volume_mm3": -121622.8274152215,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 107
+      }
+    },
+    {
+      "name": "female_P50_thickness_1.15_right",
+      "hand": {
+        "hand_length": 180,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 50.870847209788685,
+        "thumb_length": 65.36842105263158,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 23.514117647058825,
+        "finger_lengths": [
+          66.86746987951807,
+          74,
+          65.08433734939759,
+          55.27710843373494
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          23.514117647058825,
+          21.376470588235293,
+          20.30764705882353,
+          16.03235294117647
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121241.21312785553,
+        "handle_length_mm": 110.95,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          46.3953,
+          110.9478,
+          45.7743
+        ],
+        "signed_volume_mm3": -121241.21294498294,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 130
+      }
+    },
+    {
+      "name": "female_P50_thickness_1.15_left",
+      "hand": {
+        "hand_length": 180,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 50.870847209788685,
+        "thumb_length": 65.36842105263158,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 23.514117647058825,
+        "finger_lengths": [
+          66.86746987951807,
+          74,
+          65.08433734939759,
+          55.27710843373494
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          23.514117647058825,
+          21.376470588235293,
+          20.30764705882353,
+          16.03235294117647
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121241.21312785643,
+        "handle_length_mm": 110.95,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          46.3953,
+          110.9478,
+          45.7743
+        ],
+        "signed_volume_mm3": -121241.21302300341,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 130
+      }
+    },
+    {
+      "name": "female_P95_thickness_0.85_right",
+      "hand": {
+        "hand_length": 199,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 54.34042496919201,
+        "thumb_length": 72.26842105263157,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 17.380000000000003,
+        "finger_lengths": [
+          70.48192771084338,
+          78,
+          68.60240963855422,
+          58.265060240963855
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          17.380000000000003,
+          15.8,
+          15.01,
+          11.85
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 139114.17879623896,
+        "handle_length_mm": 112.21,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          49.3183,
+          112.2081,
+          48.5954
+        ],
+        "signed_volume_mm3": -139114.17884657613,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 17
+      }
+    },
+    {
+      "name": "female_P95_thickness_0.85_left",
+      "hand": {
+        "hand_length": 199,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 54.34042496919201,
+        "thumb_length": 72.26842105263157,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 17.380000000000003,
+        "finger_lengths": [
+          70.48192771084338,
+          78,
+          68.60240963855422,
+          58.265060240963855
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          17.380000000000003,
+          15.8,
+          15.01,
+          11.85
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 139114.17879623847,
+        "handle_length_mm": 112.21,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          49.3183,
+          112.2081,
+          48.5954
+        ],
+        "signed_volume_mm3": -139114.17880707525,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 17
+      }
+    },
+    {
+      "name": "female_P95_thickness_1_right",
+      "hand": {
+        "hand_length": 199,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 54.34042496919201,
+        "thumb_length": 72.26842105263157,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 20.447058823529414,
+        "finger_lengths": [
+          70.48192771084338,
+          78,
+          68.60240963855422,
+          58.265060240963855
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          20.447058823529414,
+          18.58823529411765,
+          17.658823529411766,
+          13.941176470588236
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 138707.78949164675,
+        "handle_length_mm": 112.21,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          49.3183,
+          112.2081,
+          48.6013
+        ],
+        "signed_volume_mm3": -138707.78948437257,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 27,
+        "strict_crossing_pairs_lower_bound": 5
+      }
+    },
+    {
+      "name": "female_P95_thickness_1_left",
+      "hand": {
+        "hand_length": 199,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 54.34042496919201,
+        "thumb_length": 72.26842105263157,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 20.447058823529414,
+        "finger_lengths": [
+          70.48192771084338,
+          78,
+          68.60240963855422,
+          58.265060240963855
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          20.447058823529414,
+          18.58823529411765,
+          17.658823529411766,
+          13.941176470588236
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 138707.7894916477,
+        "handle_length_mm": 112.21,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          49.3183,
+          112.2081,
+          48.6013
+        ],
+        "signed_volume_mm3": -138707.7895128697,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 27
+      }
+    },
+    {
+      "name": "female_P95_thickness_1.15_right",
+      "hand": {
+        "hand_length": 199,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 54.34042496919201,
+        "thumb_length": 72.26842105263157,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 23.514117647058825,
+        "finger_lengths": [
+          70.48192771084338,
+          78,
+          68.60240963855422,
+          58.265060240963855
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          23.514117647058825,
+          21.376470588235293,
+          20.30764705882353,
+          16.03235294117647
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 138311.5690591281,
+        "handle_length_mm": 112.21,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          49.3183,
+          112.2081,
+          48.6071
+        ],
+        "signed_volume_mm3": -138311.5689174043,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 40
+      }
+    },
+    {
+      "name": "female_P95_thickness_1.15_left",
+      "hand": {
+        "hand_length": 199,
+        "hand_breadth": 79,
+        "grip_diameter_inside": 54.34042496919201,
+        "thumb_length": 72.26842105263157,
+        "thumb_breadth": 23.235294117647058,
+        "thumb_thickness": 23.514117647058825,
+        "finger_lengths": [
+          70.48192771084338,
+          78,
+          68.60240963855422,
+          58.265060240963855
+        ],
+        "finger_widths": [
+          20.447058823529414,
+          21.376470588235296,
+          18.58823529411765,
+          16.729411764705883
+        ],
+        "finger_thicknesses": [
+          23.514117647058825,
+          21.376470588235293,
+          20.30764705882353,
+          16.03235294117647
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 138311.5690591282,
+        "handle_length_mm": 112.21,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          49.3183,
+          112.2081,
+          48.6071
+        ],
+        "signed_volume_mm3": -138311.5690389013,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 40
+      }
+    },
+    {
+      "name": "female_P99_thickness_0.85_right",
+      "hand": {
+        "hand_length": 207,
+        "hand_breadth": 81,
+        "grip_diameter_inside": 58.93137987871464,
+        "thumb_length": 75.17368421052632,
+        "thumb_breadth": 23.823529411764703,
+        "thumb_thickness": 17.82,
+        "finger_lengths": [
+          80.42168674698796,
+          89,
+          78.27710843373494,
+          66.48192771084338
+        ],
+        "finger_widths": [
+          20.96470588235294,
+          21.91764705882353,
+          19.058823529411764,
+          17.152941176470588
+        ],
+        "finger_thicknesses": [
+          17.82,
+          16.2,
+          15.389999999999999,
+          12.149999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 167946.3110674228,
+        "handle_length_mm": 117.13,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.4287,
+          117.1253,
+          53.5141
+        ],
+        "signed_volume_mm3": -167946.31097350974,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 0
+      }
+    },
+    {
+      "name": "female_P99_thickness_0.85_left",
+      "hand": {
+        "hand_length": 207,
+        "hand_breadth": 81,
+        "grip_diameter_inside": 58.93137987871464,
+        "thumb_length": 75.17368421052632,
+        "thumb_breadth": 23.823529411764703,
+        "thumb_thickness": 17.82,
+        "finger_lengths": [
+          80.42168674698796,
+          89,
+          78.27710843373494,
+          66.48192771084338
+        ],
+        "finger_widths": [
+          20.96470588235294,
+          21.91764705882353,
+          19.058823529411764,
+          17.152941176470588
+        ],
+        "finger_thicknesses": [
+          17.82,
+          16.2,
+          15.389999999999999,
+          12.149999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 167946.3110674225,
+        "handle_length_mm": 117.13,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.4287,
+          117.1253,
+          53.5141
+        ],
+        "signed_volume_mm3": -167946.3110628027,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 0
+      }
+    },
+    {
+      "name": "female_P99_thickness_1_right",
+      "hand": {
+        "hand_length": 207,
+        "hand_breadth": 81,
+        "grip_diameter_inside": 58.93137987871464,
+        "thumb_length": 75.17368421052632,
+        "thumb_breadth": 23.823529411764703,
+        "thumb_thickness": 20.96470588235294,
+        "finger_lengths": [
+          80.42168674698796,
+          89,
+          78.27710843373494,
+          66.48192771084338
+        ],
+        "finger_widths": [
+          20.96470588235294,
+          21.91764705882353,
+          19.058823529411764,
+          17.152941176470588
+        ],
+        "finger_thicknesses": [
+          20.96470588235294,
+          19.058823529411764,
+          18.105882352941176,
+          14.294117647058822
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 167446.11853221373,
+        "handle_length_mm": 117.13,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.4287,
+          117.1253,
+          53.5465
+        ],
+        "signed_volume_mm3": -167446.1184566909,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 2,
+        "strict_crossing_pairs_lower_bound": 7
+      }
+    },
+    {
+      "name": "female_P99_thickness_1_left",
+      "hand": {
+        "hand_length": 207,
+        "hand_breadth": 81,
+        "grip_diameter_inside": 58.93137987871464,
+        "thumb_length": 75.17368421052632,
+        "thumb_breadth": 23.823529411764703,
+        "thumb_thickness": 20.96470588235294,
+        "finger_lengths": [
+          80.42168674698796,
+          89,
+          78.27710843373494,
+          66.48192771084338
+        ],
+        "finger_widths": [
+          20.96470588235294,
+          21.91764705882353,
+          19.058823529411764,
+          17.152941176470588
+        ],
+        "finger_thicknesses": [
+          20.96470588235294,
+          19.058823529411764,
+          18.105882352941176,
+          14.294117647058822
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 167446.11853221382,
+        "handle_length_mm": 117.13,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.4287,
+          117.1253,
+          53.5465
+        ],
+        "signed_volume_mm3": -167446.11856802503,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 2
+      }
+    },
+    {
+      "name": "female_P99_thickness_1.15_right",
+      "hand": {
+        "hand_length": 207,
+        "hand_breadth": 81,
+        "grip_diameter_inside": 58.93137987871464,
+        "thumb_length": 75.17368421052632,
+        "thumb_breadth": 23.823529411764703,
+        "thumb_thickness": 24.109411764705882,
+        "finger_lengths": [
+          80.42168674698796,
+          89,
+          78.27710843373494,
+          66.48192771084338
+        ],
+        "finger_widths": [
+          20.96470588235294,
+          21.91764705882353,
+          19.058823529411764,
+          17.152941176470588
+        ],
+        "finger_thicknesses": [
+          24.109411764705882,
+          21.917647058823526,
+          20.82176470588235,
+          16.438235294117643
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 166953.52106650226,
+        "handle_length_mm": 117.13,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.4287,
+          117.1253,
+          53.5789
+        ],
+        "signed_volume_mm3": -166953.52099257146,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 4
+      }
+    },
+    {
+      "name": "female_P99_thickness_1.15_left",
+      "hand": {
+        "hand_length": 207,
+        "hand_breadth": 81,
+        "grip_diameter_inside": 58.93137987871464,
+        "thumb_length": 75.17368421052632,
+        "thumb_breadth": 23.823529411764703,
+        "thumb_thickness": 24.109411764705882,
+        "finger_lengths": [
+          80.42168674698796,
+          89,
+          78.27710843373494,
+          66.48192771084338
+        ],
+        "finger_widths": [
+          20.96470588235294,
+          21.91764705882353,
+          19.058823529411764,
+          17.152941176470588
+        ],
+        "finger_thicknesses": [
+          24.109411764705882,
+          21.917647058823526,
+          20.82176470588235,
+          16.438235294117643
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 166953.52106650182,
+        "handle_length_mm": 117.13,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.4287,
+          117.1253,
+          53.5789
+        ],
+        "signed_volume_mm3": -166953.52110843078,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 4
+      }
+    },
+    {
+      "name": "male_P01_thickness_0.85_right",
+      "hand": {
+        "hand_length": 172,
+        "hand_breadth": 85,
+        "grip_diameter_inside": 50.12207986761394,
+        "thumb_length": 62.463157894736845,
+        "thumb_breadth": 25,
+        "thumb_thickness": 18.7,
+        "finger_lengths": [
+          65.96385542168674,
+          73,
+          64.20481927710843,
+          54.53012048192771
+        ],
+        "finger_widths": [
+          22,
+          23,
+          20,
+          18
+        ],
+        "finger_thicknesses": [
+          18.7,
+          17,
+          16.15,
+          12.75
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 123179.66379867107,
+        "handle_length_mm": 114.99,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.7551,
+          114.9865,
+          45.494
+        ],
+        "signed_volume_mm3": -123179.6637801371,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 113
+      }
+    },
+    {
+      "name": "male_P01_thickness_0.85_left",
+      "hand": {
+        "hand_length": 172,
+        "hand_breadth": 85,
+        "grip_diameter_inside": 50.12207986761394,
+        "thumb_length": 62.463157894736845,
+        "thumb_breadth": 25,
+        "thumb_thickness": 18.7,
+        "finger_lengths": [
+          65.96385542168674,
+          73,
+          64.20481927710843,
+          54.53012048192771
+        ],
+        "finger_widths": [
+          22,
+          23,
+          20,
+          18
+        ],
+        "finger_thicknesses": [
+          18.7,
+          17,
+          16.15,
+          12.75
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 123179.6637986713,
+        "handle_length_mm": 114.99,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.7551,
+          114.9865,
+          45.494
+        ],
+        "signed_volume_mm3": -123179.66370167506,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 113
+      }
+    },
+    {
+      "name": "male_P01_thickness_1_right",
+      "hand": {
+        "hand_length": 172,
+        "hand_breadth": 85,
+        "grip_diameter_inside": 50.12207986761394,
+        "thumb_length": 62.463157894736845,
+        "thumb_breadth": 25,
+        "thumb_thickness": 22,
+        "finger_lengths": [
+          65.96385542168674,
+          73,
+          64.20481927710843,
+          54.53012048192771
+        ],
+        "finger_widths": [
+          22,
+          23,
+          20,
+          18
+        ],
+        "finger_thicknesses": [
+          22,
+          20,
+          19,
+          15
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 122731.81941312042,
+        "handle_length_mm": 114.99,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.7904,
+          114.9865,
+          45.1843
+        ],
+        "signed_volume_mm3": -122731.81940811979,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 132,
+        "strict_crossing_pairs_lower_bound": 24
+      }
+    },
+    {
+      "name": "male_P01_thickness_1_left",
+      "hand": {
+        "hand_length": 172,
+        "hand_breadth": 85,
+        "grip_diameter_inside": 50.12207986761394,
+        "thumb_length": 62.463157894736845,
+        "thumb_breadth": 25,
+        "thumb_thickness": 22,
+        "finger_lengths": [
+          65.96385542168674,
+          73,
+          64.20481927710843,
+          54.53012048192771
+        ],
+        "finger_widths": [
+          22,
+          23,
+          20,
+          18
+        ],
+        "finger_thicknesses": [
+          22,
+          20,
+          19,
+          15
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 122731.81941312143,
+        "handle_length_mm": 114.99,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.7904,
+          114.9865,
+          45.1843
+        ],
+        "signed_volume_mm3": -122731.81942640206,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 132
+      }
+    },
+    {
+      "name": "male_P01_thickness_1.15_right",
+      "hand": {
+        "hand_length": 172,
+        "hand_breadth": 85,
+        "grip_diameter_inside": 50.12207986761394,
+        "thumb_length": 62.463157894736845,
+        "thumb_breadth": 25,
+        "thumb_thickness": 25.299999999999997,
+        "finger_lengths": [
+          65.96385542168674,
+          73,
+          64.20481927710843,
+          54.53012048192771
+        ],
+        "finger_widths": [
+          22,
+          23,
+          20,
+          18
+        ],
+        "finger_thicknesses": [
+          25.299999999999997,
+          23,
+          21.849999999999998,
+          17.25
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 122302.35419873169,
+        "handle_length_mm": 114.99,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.8258,
+          114.9865,
+          45.0807
+        ],
+        "signed_volume_mm3": -122302.35420707251,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 159
+      }
+    },
+    {
+      "name": "male_P01_thickness_1.15_left",
+      "hand": {
+        "hand_length": 172,
+        "hand_breadth": 85,
+        "grip_diameter_inside": 50.12207986761394,
+        "thumb_length": 62.463157894736845,
+        "thumb_breadth": 25,
+        "thumb_thickness": 25.299999999999997,
+        "finger_lengths": [
+          65.96385542168674,
+          73,
+          64.20481927710843,
+          54.53012048192771
+        ],
+        "finger_widths": [
+          22,
+          23,
+          20,
+          18
+        ],
+        "finger_thicknesses": [
+          25.299999999999997,
+          23,
+          21.849999999999998,
+          17.25
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 122302.35419873291,
+        "handle_length_mm": 114.99,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.8258,
+          114.9865,
+          45.0807
+        ],
+        "signed_volume_mm3": -122302.35417647853,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 159
+      }
+    },
+    {
+      "name": "male_P05_thickness_0.85_right",
+      "hand": {
+        "hand_length": 177,
+        "hand_breadth": 86,
+        "grip_diameter_inside": 49.82752003795346,
+        "thumb_length": 64.27894736842106,
+        "thumb_breadth": 25.294117647058822,
+        "thumb_thickness": 18.919999999999998,
+        "finger_lengths": [
+          63.25301204819277,
+          70,
+          61.566265060240966,
+          52.28915662650603
+        ],
+        "finger_widths": [
+          22.258823529411764,
+          23.270588235294117,
+          20.235294117647058,
+          18.211764705882352
+        ],
+        "finger_thicknesses": [
+          18.919999999999998,
+          17.2,
+          16.34,
+          12.899999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121804.58928912424,
+        "handle_length_mm": 114.77,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.6675,
+          114.7669,
+          45.6304
+        ],
+        "signed_volume_mm3": -121804.58919050278,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 118
+      }
+    },
+    {
+      "name": "male_P05_thickness_0.85_left",
+      "hand": {
+        "hand_length": 177,
+        "hand_breadth": 86,
+        "grip_diameter_inside": 49.82752003795346,
+        "thumb_length": 64.27894736842106,
+        "thumb_breadth": 25.294117647058822,
+        "thumb_thickness": 18.919999999999998,
+        "finger_lengths": [
+          63.25301204819277,
+          70,
+          61.566265060240966,
+          52.28915662650603
+        ],
+        "finger_widths": [
+          22.258823529411764,
+          23.270588235294117,
+          20.235294117647058,
+          18.211764705882352
+        ],
+        "finger_thicknesses": [
+          18.919999999999998,
+          17.2,
+          16.34,
+          12.899999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121804.58928912425,
+        "handle_length_mm": 114.77,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.6675,
+          114.7669,
+          45.6304
+        ],
+        "signed_volume_mm3": -121804.58907562487,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 118
+      }
+    },
+    {
+      "name": "male_P05_thickness_1_right",
+      "hand": {
+        "hand_length": 177,
+        "hand_breadth": 86,
+        "grip_diameter_inside": 49.82752003795346,
+        "thumb_length": 64.27894736842106,
+        "thumb_breadth": 25.294117647058822,
+        "thumb_thickness": 22.258823529411764,
+        "finger_lengths": [
+          63.25301204819277,
+          70,
+          61.566265060240966,
+          52.28915662650603
+        ],
+        "finger_widths": [
+          22.258823529411764,
+          23.270588235294117,
+          20.235294117647058,
+          18.211764705882352
+        ],
+        "finger_thicknesses": [
+          22.258823529411764,
+          20.235294117647058,
+          19.223529411764705,
+          15.176470588235293
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121358.221241408,
+        "handle_length_mm": 114.77,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.711,
+          114.7669,
+          45.3881
+        ],
+        "signed_volume_mm3": -121358.221158227,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 134,
+        "strict_crossing_pairs_lower_bound": 27
+      }
+    },
+    {
+      "name": "male_P05_thickness_1_left",
+      "hand": {
+        "hand_length": 177,
+        "hand_breadth": 86,
+        "grip_diameter_inside": 49.82752003795346,
+        "thumb_length": 64.27894736842106,
+        "thumb_breadth": 25.294117647058822,
+        "thumb_thickness": 22.258823529411764,
+        "finger_lengths": [
+          63.25301204819277,
+          70,
+          61.566265060240966,
+          52.28915662650603
+        ],
+        "finger_widths": [
+          22.258823529411764,
+          23.270588235294117,
+          20.235294117647058,
+          18.211764705882352
+        ],
+        "finger_thicknesses": [
+          22.258823529411764,
+          20.235294117647058,
+          19.223529411764705,
+          15.176470588235293
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 121358.22124140777,
+        "handle_length_mm": 114.77,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.711,
+          114.7669,
+          45.3881
+        ],
+        "signed_volume_mm3": -121358.22110871454,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 134
+      }
+    },
+    {
+      "name": "male_P05_thickness_1.15_right",
+      "hand": {
+        "hand_length": 177,
+        "hand_breadth": 86,
+        "grip_diameter_inside": 49.82752003795346,
+        "thumb_length": 64.27894736842106,
+        "thumb_breadth": 25.294117647058822,
+        "thumb_thickness": 25.597647058823526,
+        "finger_lengths": [
+          63.25301204819277,
+          70,
+          61.566265060240966,
+          52.28915662650603
+        ],
+        "finger_widths": [
+          22.258823529411764,
+          23.270588235294117,
+          20.235294117647058,
+          18.211764705882352
+        ],
+        "finger_thicknesses": [
+          25.597647058823526,
+          23.270588235294113,
+          22.10705882352941,
+          17.452941176470585
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 120930.77889538574,
+        "handle_length_mm": 114.77,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.7544,
+          114.7669,
+          45.1457
+        ],
+        "signed_volume_mm3": -120930.77882056036,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 157
+      }
+    },
+    {
+      "name": "male_P05_thickness_1.15_left",
+      "hand": {
+        "hand_length": 177,
+        "hand_breadth": 86,
+        "grip_diameter_inside": 49.82752003795346,
+        "thumb_length": 64.27894736842106,
+        "thumb_breadth": 25.294117647058822,
+        "thumb_thickness": 25.597647058823526,
+        "finger_lengths": [
+          63.25301204819277,
+          70,
+          61.566265060240966,
+          52.28915662650603
+        ],
+        "finger_widths": [
+          22.258823529411764,
+          23.270588235294117,
+          20.235294117647058,
+          18.211764705882352
+        ],
+        "finger_thicknesses": [
+          25.597647058823526,
+          23.270588235294113,
+          22.10705882352941,
+          17.452941176470585
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 120930.7788953859,
+        "handle_length_mm": 114.77,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          45.7544,
+          114.7669,
+          45.1457
+        ],
+        "signed_volume_mm3": -120930.77871054878,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 157
+      }
+    },
+    {
+      "name": "male_P50_thickness_0.85_right",
+      "hand": {
+        "hand_length": 193,
+        "hand_breadth": 90,
+        "grip_diameter_inside": 52.324922247139106,
+        "thumb_length": 70.08947368421053,
+        "thumb_breadth": 26.47058823529412,
+        "thumb_thickness": 19.799999999999997,
+        "finger_lengths": [
+          64.1566265060241,
+          71,
+          62.44578313253012,
+          53.036144578313255
+        ],
+        "finger_widths": [
+          23.294117647058822,
+          24.352941176470587,
+          21.176470588235293,
+          19.058823529411764
+        ],
+        "finger_thicknesses": [
+          19.799999999999997,
+          18,
+          17.099999999999998,
+          13.5
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 136329.41563012445,
+        "handle_length_mm": 117.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          47.8392,
+          117.9845,
+          47.4961
+        ],
+        "signed_volume_mm3": -136329.4157973672,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 101
+      }
+    },
+    {
+      "name": "male_P50_thickness_0.85_left",
+      "hand": {
+        "hand_length": 193,
+        "hand_breadth": 90,
+        "grip_diameter_inside": 52.324922247139106,
+        "thumb_length": 70.08947368421053,
+        "thumb_breadth": 26.47058823529412,
+        "thumb_thickness": 19.799999999999997,
+        "finger_lengths": [
+          64.1566265060241,
+          71,
+          62.44578313253012,
+          53.036144578313255
+        ],
+        "finger_widths": [
+          23.294117647058822,
+          24.352941176470587,
+          21.176470588235293,
+          19.058823529411764
+        ],
+        "finger_thicknesses": [
+          19.799999999999997,
+          18,
+          17.099999999999998,
+          13.5
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 136329.41563012448,
+        "handle_length_mm": 117.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          47.8392,
+          117.9845,
+          47.4961
+        ],
+        "signed_volume_mm3": -136329.41576729377,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 101
+      }
+    },
+    {
+      "name": "male_P50_thickness_1_right",
+      "hand": {
+        "hand_length": 193,
+        "hand_breadth": 90,
+        "grip_diameter_inside": 52.324922247139106,
+        "thumb_length": 70.08947368421053,
+        "thumb_breadth": 26.47058823529412,
+        "thumb_thickness": 23.294117647058822,
+        "finger_lengths": [
+          64.1566265060241,
+          71,
+          62.44578313253012,
+          53.036144578313255
+        ],
+        "finger_widths": [
+          23.294117647058822,
+          24.352941176470587,
+          21.176470588235293,
+          19.058823529411764
+        ],
+        "finger_thicknesses": [
+          23.294117647058822,
+          21.176470588235293,
+          20.11764705882353,
+          15.882352941176471
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 135785.00998632444,
+        "handle_length_mm": 117.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          47.8844,
+          117.9845,
+          47.2038
+        ],
+        "signed_volume_mm3": -135785.010072217,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 121,
+        "strict_crossing_pairs_lower_bound": 16
+      }
+    },
+    {
+      "name": "male_P50_thickness_1_left",
+      "hand": {
+        "hand_length": 193,
+        "hand_breadth": 90,
+        "grip_diameter_inside": 52.324922247139106,
+        "thumb_length": 70.08947368421053,
+        "thumb_breadth": 26.47058823529412,
+        "thumb_thickness": 23.294117647058822,
+        "finger_lengths": [
+          64.1566265060241,
+          71,
+          62.44578313253012,
+          53.036144578313255
+        ],
+        "finger_widths": [
+          23.294117647058822,
+          24.352941176470587,
+          21.176470588235293,
+          19.058823529411764
+        ],
+        "finger_thicknesses": [
+          23.294117647058822,
+          21.176470588235293,
+          20.11764705882353,
+          15.882352941176471
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 135785.00998632333,
+        "handle_length_mm": 117.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          47.8844,
+          117.9845,
+          47.2038
+        ],
+        "signed_volume_mm3": -135785.01009531997,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 121
+      }
+    },
+    {
+      "name": "male_P50_thickness_1.15_right",
+      "hand": {
+        "hand_length": 193,
+        "hand_breadth": 90,
+        "grip_diameter_inside": 52.324922247139106,
+        "thumb_length": 70.08947368421053,
+        "thumb_breadth": 26.47058823529412,
+        "thumb_thickness": 26.788235294117644,
+        "finger_lengths": [
+          64.1566265060241,
+          71,
+          62.44578313253012,
+          53.036144578313255
+        ],
+        "finger_widths": [
+          23.294117647058822,
+          24.352941176470587,
+          21.176470588235293,
+          19.058823529411764
+        ],
+        "finger_thicknesses": [
+          26.788235294117644,
+          24.352941176470587,
+          23.135294117647057,
+          18.264705882352942
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 135264.98774648225,
+        "handle_length_mm": 117.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          47.9296,
+          117.9845,
+          47.1466
+        ],
+        "signed_volume_mm3": -135264.98784457825,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 144
+      }
+    },
+    {
+      "name": "male_P50_thickness_1.15_left",
+      "hand": {
+        "hand_length": 193,
+        "hand_breadth": 90,
+        "grip_diameter_inside": 52.324922247139106,
+        "thumb_length": 70.08947368421053,
+        "thumb_breadth": 26.47058823529412,
+        "thumb_thickness": 26.788235294117644,
+        "finger_lengths": [
+          64.1566265060241,
+          71,
+          62.44578313253012,
+          53.036144578313255
+        ],
+        "finger_widths": [
+          23.294117647058822,
+          24.352941176470587,
+          21.176470588235293,
+          19.058823529411764
+        ],
+        "finger_thicknesses": [
+          26.788235294117644,
+          24.352941176470587,
+          23.135294117647057,
+          18.264705882352942
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 135264.9877464822,
+        "handle_length_mm": 117.98,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          47.9296,
+          117.9845,
+          47.1466
+        ],
+        "signed_volume_mm3": -135264.98790209132,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 144
+      }
+    },
+    {
+      "name": "male_P95_thickness_0.85_right",
+      "hand": {
+        "hand_length": 210,
+        "hand_breadth": 92,
+        "grip_diameter_inside": 59.22948743466076,
+        "thumb_length": 76.26315789473685,
+        "thumb_breadth": 27.058823529411764,
+        "thumb_thickness": 20.24,
+        "finger_lengths": [
+          77.71084337349397,
+          86,
+          75.63855421686748,
+          64.24096385542168
+        ],
+        "finger_widths": [
+          23.81176470588235,
+          24.89411764705882,
+          21.64705882352941,
+          19.48235294117647
+        ],
+        "finger_thicknesses": [
+          20.24,
+          18.4,
+          17.479999999999997,
+          13.799999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 180088.46079035965,
+        "handle_length_mm": 124.16,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.6956,
+          124.162,
+          54.0955
+        ],
+        "signed_volume_mm3": -180088.46113248527,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 0
+      }
+    },
+    {
+      "name": "male_P95_thickness_0.85_left",
+      "hand": {
+        "hand_length": 210,
+        "hand_breadth": 92,
+        "grip_diameter_inside": 59.22948743466076,
+        "thumb_length": 76.26315789473685,
+        "thumb_breadth": 27.058823529411764,
+        "thumb_thickness": 20.24,
+        "finger_lengths": [
+          77.71084337349397,
+          86,
+          75.63855421686748,
+          64.24096385542168
+        ],
+        "finger_widths": [
+          23.81176470588235,
+          24.89411764705882,
+          21.64705882352941,
+          19.48235294117647
+        ],
+        "finger_thicknesses": [
+          20.24,
+          18.4,
+          17.479999999999997,
+          13.799999999999999
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 180088.46079036058,
+        "handle_length_mm": 124.16,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.6956,
+          124.162,
+          54.0955
+        ],
+        "signed_volume_mm3": -180088.46098208023,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 0
+      }
+    },
+    {
+      "name": "male_P95_thickness_1_right",
+      "hand": {
+        "hand_length": 210,
+        "hand_breadth": 92,
+        "grip_diameter_inside": 59.22948743466076,
+        "thumb_length": 76.26315789473685,
+        "thumb_breadth": 27.058823529411764,
+        "thumb_thickness": 23.81176470588235,
+        "finger_lengths": [
+          77.71084337349397,
+          86,
+          75.63855421686748,
+          64.24096385542168
+        ],
+        "finger_widths": [
+          23.81176470588235,
+          24.89411764705882,
+          21.64705882352941,
+          19.48235294117647
+        ],
+        "finger_thicknesses": [
+          23.81176470588235,
+          21.64705882352941,
+          20.56470588235294,
+          16.235294117647058
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 179486.65827459694,
+        "handle_length_mm": 124.16,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.6956,
+          124.162,
+          54.1713
+        ],
+        "signed_volume_mm3": -179486.6583957323,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 2,
+        "strict_crossing_pairs_lower_bound": 5
+      }
+    },
+    {
+      "name": "male_P95_thickness_1_left",
+      "hand": {
+        "hand_length": 210,
+        "hand_breadth": 92,
+        "grip_diameter_inside": 59.22948743466076,
+        "thumb_length": 76.26315789473685,
+        "thumb_breadth": 27.058823529411764,
+        "thumb_thickness": 23.81176470588235,
+        "finger_lengths": [
+          77.71084337349397,
+          86,
+          75.63855421686748,
+          64.24096385542168
+        ],
+        "finger_widths": [
+          23.81176470588235,
+          24.89411764705882,
+          21.64705882352941,
+          19.48235294117647
+        ],
+        "finger_thicknesses": [
+          23.81176470588235,
+          21.64705882352941,
+          20.56470588235294,
+          16.235294117647058
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 179486.65827459708,
+        "handle_length_mm": 124.16,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.6956,
+          124.162,
+          54.1713
+        ],
+        "signed_volume_mm3": -179486.65835647614,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 2
+      }
+    },
+    {
+      "name": "male_P95_thickness_1.15_right",
+      "hand": {
+        "hand_length": 210,
+        "hand_breadth": 92,
+        "grip_diameter_inside": 59.22948743466076,
+        "thumb_length": 76.26315789473685,
+        "thumb_breadth": 27.058823529411764,
+        "thumb_thickness": 27.3835294117647,
+        "finger_lengths": [
+          77.71084337349397,
+          86,
+          75.63855421686748,
+          64.24096385542168
+        ],
+        "finger_widths": [
+          23.81176470588235,
+          24.89411764705882,
+          21.64705882352941,
+          19.48235294117647
+        ],
+        "finger_thicknesses": [
+          27.3835294117647,
+          24.89411764705882,
+          23.649411764705878,
+          18.670588235294115
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 178894.52129978585,
+        "handle_length_mm": 124.16,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.6956,
+          124.162,
+          54.2685
+        ],
+        "signed_volume_mm3": -178894.52134181652,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 7
+      }
+    },
+    {
+      "name": "male_P95_thickness_1.15_left",
+      "hand": {
+        "hand_length": 210,
+        "hand_breadth": 92,
+        "grip_diameter_inside": 59.22948743466076,
+        "thumb_length": 76.26315789473685,
+        "thumb_breadth": 27.058823529411764,
+        "thumb_thickness": 27.3835294117647,
+        "finger_lengths": [
+          77.71084337349397,
+          86,
+          75.63855421686748,
+          64.24096385542168
+        ],
+        "finger_widths": [
+          23.81176470588235,
+          24.89411764705882,
+          21.64705882352941,
+          19.48235294117647
+        ],
+        "finger_thicknesses": [
+          27.3835294117647,
+          24.89411764705882,
+          23.649411764705878,
+          18.670588235294115
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 178894.52129978524,
+        "handle_length_mm": 124.16,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          53.6956,
+          124.162,
+          54.2685
+        ],
+        "signed_volume_mm3": -178894.5212828664,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 7
+      }
+    },
+    {
+      "name": "male_P99_thickness_0.85_right",
+      "hand": {
+        "hand_length": 218,
+        "hand_breadth": 93,
+        "grip_diameter_inside": 63.10143648362705,
+        "thumb_length": 79.16842105263159,
+        "thumb_breadth": 27.35294117647059,
+        "thumb_thickness": 20.46,
+        "finger_lengths": [
+          85.8433734939759,
+          95,
+          83.55421686746988,
+          70.96385542168674
+        ],
+        "finger_widths": [
+          24.07058823529412,
+          25.164705882352944,
+          21.88235294117647,
+          19.694117647058825
+        ],
+        "finger_thicknesses": [
+          20.46,
+          18.6,
+          17.67,
+          13.950000000000001
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 206805.35421192192,
+        "handle_length_mm": 127.72,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          57.1622,
+          127.7234,
+          57.7043
+        ],
+        "signed_volume_mm3": -206805.35376195205,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 29
+      }
+    },
+    {
+      "name": "male_P99_thickness_0.85_left",
+      "hand": {
+        "hand_length": 218,
+        "hand_breadth": 93,
+        "grip_diameter_inside": 63.10143648362705,
+        "thumb_length": 79.16842105263159,
+        "thumb_breadth": 27.35294117647059,
+        "thumb_thickness": 20.46,
+        "finger_lengths": [
+          85.8433734939759,
+          95,
+          83.55421686746988,
+          70.96385542168674
+        ],
+        "finger_widths": [
+          24.07058823529412,
+          25.164705882352944,
+          21.88235294117647,
+          19.694117647058825
+        ],
+        "finger_thicknesses": [
+          20.46,
+          18.6,
+          17.67,
+          13.950000000000001
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 206805.35421192276,
+        "handle_length_mm": 127.72,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          57.1622,
+          127.7234,
+          57.7043
+        ],
+        "signed_volume_mm3": -206805.35371401234,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 29
+      }
+    },
+    {
+      "name": "male_P99_thickness_1_right",
+      "hand": {
+        "hand_length": 218,
+        "hand_breadth": 93,
+        "grip_diameter_inside": 63.10143648362705,
+        "thumb_length": 79.16842105263159,
+        "thumb_breadth": 27.35294117647059,
+        "thumb_thickness": 24.07058823529412,
+        "finger_lengths": [
+          85.8433734939759,
+          95,
+          83.55421686746988,
+          70.96385542168674
+        ],
+        "finger_widths": [
+          24.07058823529412,
+          25.164705882352944,
+          21.88235294117647,
+          19.694117647058825
+        ],
+        "finger_thicknesses": [
+          24.07058823529412,
+          21.88235294117647,
+          20.788235294117648,
+          16.411764705882355
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 205952.04547881792,
+        "handle_length_mm": 127.72,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          57.1622,
+          127.7234,
+          57.8565
+        ],
+        "signed_volume_mm3": -205952.04493213817,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 34,
+        "strict_crossing_pairs_lower_bound": 18
+      }
+    },
+    {
+      "name": "male_P99_thickness_1_left",
+      "hand": {
+        "hand_length": 218,
+        "hand_breadth": 93,
+        "grip_diameter_inside": 63.10143648362705,
+        "thumb_length": 79.16842105263159,
+        "thumb_breadth": 27.35294117647059,
+        "thumb_thickness": 24.07058823529412,
+        "finger_lengths": [
+          85.8433734939759,
+          95,
+          83.55421686746988,
+          70.96385542168674
+        ],
+        "finger_widths": [
+          24.07058823529412,
+          25.164705882352944,
+          21.88235294117647,
+          19.694117647058825
+        ],
+        "finger_thicknesses": [
+          24.07058823529412,
+          21.88235294117647,
+          20.788235294117648,
+          16.411764705882355
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 205952.0454788186,
+        "handle_length_mm": 127.72,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          57.1622,
+          127.7234,
+          57.8565
+        ],
+        "signed_volume_mm3": -205952.04491314702,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 34
+      }
+    },
+    {
+      "name": "male_P99_thickness_1.15_right",
+      "hand": {
+        "hand_length": 218,
+        "hand_breadth": 93,
+        "grip_diameter_inside": 63.10143648362705,
+        "thumb_length": 79.16842105263159,
+        "thumb_breadth": 27.35294117647059,
+        "thumb_thickness": 27.681176470588237,
+        "finger_lengths": [
+          85.8433734939759,
+          95,
+          83.55421686746988,
+          70.96385542168674
+        ],
+        "finger_widths": [
+          24.07058823529412,
+          25.164705882352944,
+          21.88235294117647,
+          19.694117647058825
+        ],
+        "finger_thicknesses": [
+          27.681176470588237,
+          25.16470588235294,
+          23.906470588235294,
+          18.873529411764707
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 205114.2282680842,
+        "handle_length_mm": 127.72,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          57.1622,
+          127.7234,
+          58.0323
+        ],
+        "signed_volume_mm3": -205114.22778513198,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 44
+      }
+    },
+    {
+      "name": "male_P99_thickness_1.15_left",
+      "hand": {
+        "hand_length": 218,
+        "hand_breadth": 93,
+        "grip_diameter_inside": 63.10143648362705,
+        "thumb_length": 79.16842105263159,
+        "thumb_breadth": 27.35294117647059,
+        "thumb_thickness": 27.681176470588237,
+        "finger_lengths": [
+          85.8433734939759,
+          95,
+          83.55421686746988,
+          70.96385542168674
+        ],
+        "finger_widths": [
+          24.07058823529412,
+          25.164705882352944,
+          21.88235294117647,
+          19.694117647058825
+        ],
+        "finger_thicknesses": [
+          27.681176470588237,
+          25.16470588235294,
+          23.906470588235294,
+          18.873529411764707
+        ]
+      },
+      "stats": {
+        "triangles": 13780,
+        "watertight": false,
+        "volume_mm3": 205114.228268086,
+        "handle_length_mm": 127.72,
+        "handle_within_hand_length": true,
+        "envelope_margin_mm": 0,
+        "envelope_ok": true,
+        "identity": false,
+        "source_preserved": true
+      },
+      "independent_checks": {
+        "finite": true,
+        "triangles": 13780,
+        "dimensions_mm": [
+          57.1622,
+          127.7234,
+          58.0323
+        ],
+        "signed_volume_mm3": -205114.2276051029,
+        "degenerate_faces": 40,
+        "new_degenerate_faces": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 10,
+        "unique_vertices": 6890,
+        "faces_rotated_over_90deg_from_source": 44
+      }
+    }
+  ]
+}

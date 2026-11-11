@@ -1,0 +1,168 @@
+Verification: November 3, 2026. Node suites and simulated photo workflow; not a native browser/GPU or physical fit test.
+
+test_browser_generator.cjs: exit 0
+PASS: right
+PASS: left
+PASS: missing thumb
+PASS: missing middle
+PASS: smaller grip
+
+test_controls.cjs: exit 0
+PASS: mode switching, direct manual generation, missing grip error and override;
+PASS: every static button wired; baseline/apply/download exact bytes; manual edits/invalid JSON; right-hand-only generation; copy/export jump; viewer controls; photo tabs/upload callback; calibration/measurement mode; skip/undo; zoom/fit; AI no-photo message.
+
+test_finger_tilt.cjs: exit 0
+PASS: four fingers tilt downward on the calibrated STL in both hands; segment lengths preserved
+
+test_hand_edge_assist.cjs: exit 0
+PASS: skin-edge pair, background rejection, coincident landmark rejection
+
+test_hand_overlay.cjs: exit 0
+PASS: measured digit lengths in both hands; missing digits omitted
+
+test_orientation_editor.cjs: exit 0
+PASS: region editing/classification, save/import round trip, undo/reset, surface picking, camera controls, invalid radii
+
+test_palm_wrap.cjs: exit 0
+PASS: palm inputs ignored; no palm paths/wrist; baseline remains exact
+
+test_resize.cjs: exit 0
+PASS: identity download, 20% dimensional scaling, invalid input blocks download, reset restores original
+
+test_source_deformation.cjs: exit 0
+PASS: larger grip
+PASS: missing thumb
+PASS: missing middle
+PASS: exact baseline bytes, continuous near-baseline change (0.0000457763671875 mm), original triangle count retained
+PASS: left-hand generation rejected
+
+test_thumb_orientation.cjs: exit 0
+PASS: calibrated thumb runs toward pinky along STL axis; both hands retain measured thumb length
+
+test_validation.cjs: exit 0
+PASS: 100 pointer events coalesced into one animation frame
+PASS: baseline overlay initialization, changed measurement display, identity reset
+
+test_user_photo_flow.cjs: exit 0
+After palm-up: {
+  "hand_length": 207,
+  "hand_breadth": null,
+  "grip_diameter_inside": null,
+  "thumb_length": 61,
+  "thumb_breadth": null,
+  "thumb_thickness": null,
+  "finger_widths": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "finger_lengths": [
+    74,
+    90,
+    81,
+    64
+  ],
+  "finger_thicknesses": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "_estimated": {},
+  "_hand": {
+    "fingers": {
+      "index": "present",
+      "middle": "present",
+      "ring": "present",
+      "little": "present"
+    },
+    "thumb": "present"
+  }
+}
+After palm-down: {
+  "hand_length": 207,
+  "hand_breadth": 86,
+  "grip_diameter_inside": 52,
+  "thumb_length": 61,
+  "thumb_breadth": 15,
+  "thumb_thickness": 13,
+  "finger_widths": [
+    18,
+    20,
+    18,
+    15
+  ],
+  "finger_lengths": [
+    74,
+    90,
+    81,
+    64
+  ],
+  "finger_thicknesses": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "_estimated": {
+    "thumb_thickness": true,
+    "grip_diameter_inside": "estimate; a grip diameter you measured yourself overrides it"
+  },
+  "_hand": {
+    "fingers": {
+      "index": "present",
+      "middle": "present",
+      "ring": "present",
+      "little": "present"
+    },
+    "thumb": "present"
+  }
+}
+After side view: {
+  "hand_length": 207,
+  "hand_breadth": 86,
+  "grip_diameter_inside": 52,
+  "thumb_length": 61,
+  "thumb_breadth": 15,
+  "thumb_thickness": 13,
+  "finger_widths": [
+    18,
+    20,
+    18,
+    15
+  ],
+  "finger_lengths": [
+    74,
+    90,
+    81,
+    64
+  ],
+  "finger_thicknesses": [
+    17,
+    16,
+    16,
+    12
+  ],
+  "_estimated": {
+    "finger_thicknesses": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "thumb_thickness": true,
+    "grip_diameter_inside": "estimate; a grip diameter you measured yourself overrides it"
+  },
+  "_hand": {
+    "fingers": {
+      "index": "present",
+      "middle": "present",
+      "ring": "present",
+      "little": "present"
+    },
+    "thumb": "present"
+  }
+}
+Generate status: Cannot build: the current photo profile has no grip diameter. Still needed: hand breadth, thumb breadth, finger widths, finger thickness. Complete the guided photo measurements to estimate it, or enter a measured grip diameter above. The word ‘estimated’ is a placeholder, not a value. To test with sample values instead, choose Enter measurements, click Load baseline measurements, then Generate STL.  download: inline-block
+PASS: simulated three-photo flow, landmark coordinates, error clears when estimate available, STL generated

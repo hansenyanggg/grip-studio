@@ -1,0 +1,605 @@
+{
+  "source_crossings": 5,
+  "cases": [
+    {
+      "name": "female_P01_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        43.8928,
+        105.9351,
+        41.8163
+      ],
+      "signed_volume_mm3": -93560.88980330901,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 7,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P01_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        43.8928,
+        105.9351,
+        41.4442
+      ],
+      "signed_volume_mm3": -92856.7862933082,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 12,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P01_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        43.8928,
+        105.9351,
+        41.6303
+      ],
+      "signed_volume_mm3": -93207.12225858949,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 7,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P05_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        44.412,
+        106.9758,
+        42.4104
+      ],
+      "signed_volume_mm3": -98228.33899265493,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 1,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P05_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        44.412,
+        106.9758,
+        42.0229
+      ],
+      "signed_volume_mm3": -97442.2773316637,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 19,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P05_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        44.412,
+        106.9758,
+        42.1951
+      ],
+      "signed_volume_mm3": -97833.1728793303,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 6,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P50_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.8646,
+        110.9478,
+        45.3831
+      ],
+      "signed_volume_mm3": -120667.19133587745,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 2,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P50_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.8646,
+        110.9478,
+        45.3759
+      ],
+      "signed_volume_mm3": -119577.30034299365,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 23,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P50_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.8646,
+        110.9478,
+        45.3795
+      ],
+      "signed_volume_mm3": -120118.10022983357,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 13,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P95_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        49.3221,
+        112.2081,
+        48.3558
+      ],
+      "signed_volume_mm3": -138999.50352797724,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P95_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        49.3221,
+        112.2081,
+        48.3354
+      ],
+      "signed_volume_mm3": -137910.1884249465,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P95_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        49.3221,
+        112.2081,
+        48.3456
+      ],
+      "signed_volume_mm3": -138451.53293806312,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P99_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        53.4056,
+        117.1253,
+        52.7442
+      ],
+      "signed_volume_mm3": -169432.88657747261,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P99_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        53.4056,
+        117.1253,
+        52.526
+      ],
+      "signed_volume_mm3": -168139.26001486482,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "female_P99_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        53.4056,
+        117.1253,
+        52.5925
+      ],
+      "signed_volume_mm3": -168783.02855893172,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P01_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.417,
+        114.9865,
+        44.7103
+      ],
+      "signed_volume_mm3": -121435.50826647482,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 9,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P01_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.417,
+        114.9865,
+        44.6913
+      ],
+      "signed_volume_mm3": -120204.3637119078,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 35,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P01_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.417,
+        114.9865,
+        44.7008
+      ],
+      "signed_volume_mm3": -120814.79360862398,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 24,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P05_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.241,
+        114.7669,
+        44.5993
+      ],
+      "signed_volume_mm3": -119949.59361586599,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 13,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P05_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.241,
+        114.7669,
+        44.507
+      ],
+      "signed_volume_mm3": -118719.22501837257,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 40,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P05_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        46.241,
+        114.7669,
+        44.5523
+      ],
+      "signed_volume_mm3": -119329.36369389492,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 27,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P50_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        47.7958,
+        117.9845,
+        46.648
+      ],
+      "signed_volume_mm3": -135328.53590935862,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 15,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P50_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        47.9312,
+        117.9845,
+        46.5435
+      ],
+      "signed_volume_mm3": -133859.01461679093,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 46,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P50_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        47.8635,
+        117.9845,
+        46.5931
+      ],
+      "signed_volume_mm3": -134587.21852553592,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 29,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P95_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        53.6708,
+        124.162,
+        53.338
+      ],
+      "signed_volume_mm3": -181823.5510353654,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P95_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        53.6708,
+        124.162,
+        53.1847
+      ],
+      "signed_volume_mm3": -180272.9252308282,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 1,
+      "source_crossings_resolved": 1
+    },
+    {
+      "name": "male_P95_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        53.6708,
+        124.162,
+        53.2311
+      ],
+      "signed_volume_mm3": -181044.31074931272,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 1,
+      "source_crossings_resolved": 1
+    },
+    {
+      "name": "male_P99_thickness_0.85_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        57.1148,
+        127.7234,
+        56.4621
+      ],
+      "signed_volume_mm3": -210048.83160863872,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 0,
+      "source_crossings_resolved": 0
+    },
+    {
+      "name": "male_P99_thickness_1.15_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        57.1148,
+        127.7234,
+        56.3414
+      ],
+      "signed_volume_mm3": -207944.05898646617,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 1,
+      "source_crossings_resolved": 1
+    },
+    {
+      "name": "male_P99_thickness_1_right.stl",
+      "finite": true,
+      "triangles": 13780,
+      "dimensions_mm": [
+        57.1148,
+        127.7234,
+        56.4017
+      ],
+      "signed_volume_mm3": -208990.55446712565,
+      "degenerate_faces": 40,
+      "new_degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 10,
+      "unique_vertices": 6890,
+      "faces_rotated_over_90deg_from_source": 0,
+      "strict_crossings": 5,
+      "new_strict_crossings": 1,
+      "source_crossings_resolved": 1
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grip Generator</title>
+<link rel="stylesheet" href="assets/app.css?v=20261110-insights">
+</head>
+<body data-input-mode="manual">
+<header>
+<h1>Grip Generator</h1><nav aria-label="Measurement source"><button id="manualMode" class="btn">Enter measurements</button><button id="photoMode" class="btn ghost">Measure photos</button></nav>
+
+</header>
+<div id="layout">
+<div id="viewportWrap">
+<div id="viewport">
+<div id="stage"><img id="photo" alt="Hand photo to measure" draggable="false" /></div>
+<div id="emptyState">Pick a step (1 to 3) on the right, take that photo, calibrate two tape marks, then tap the guided points. Start with step 1: palm up, tape lying along the fingers, with the tape's zero at the crease where the hand meets the wrist.</div>
+</div>
+<div id="zoombar">
+<button id="zoomOut" title="Zoom out">&minus;</button>
+<span id="zoomLabel">—</span>
+<button id="zoomIn" title="Zoom in">+</button>
+<button id="fitBtn" class="fit">Fit</button>
+</div>
+</div>
+<aside id="panel"><div id="inputColumn"><section id="secExample">
+<h2>Current profile</h2>
+<p id="exampleStatus">An example hand profile is loaded automatically. No photos are needed to try it. The baseline example demonstrates zero deformation; the reference hand has not been verified against the uploaded model.</p>
+<p id="photoProgress" role="status"></p>
+<div class="row"><label class="btn" for="file">Take / choose photo (for the selected step)</label>
+<input id="file" type="file" accept="image/*" hidden />
+<button class="btn ghost" id="exampleResultsBtn">Jump to export</button></div>
+</section>
+<div class="modes" id="stepTabs">
+<button data-step="0" class="active">1 · Palm up</button>
+<button data-step="1">2 · Palm down</button>
+<button data-step="2">3 · Side view</button>
+</div>
+<section id="stepHead">
+<h2 id="stepTitle">1 · Palm up</h2>
+<p id="stepHint">—</p>
+<p id="photoStatus" class="hint">No photo yet for this step.</p>
+</section>
+<section id="secMode">
+<div class="modes">
+<button id="modeCal">A · Calibrate tape</button>
+<button id="modeMeas">B · Measure hand</button>
+</div>
+</section>
+<section id="secCal">
+<h2>Calibrate this photo</h2>
+<p>Tap two easy-to-see markings on the tape (for example the <b>10</b> and the <b>20</b>), then set their values below.</p>
+<div class="row">
+<label>Tap 1 = <input id="calA" type="number" value="10" step="0.5" /> cm</label>
+<label>Tap 2 = <input id="calB" type="number" value="20" step="0.5" /> cm</label>
+</div>
+<p id="calStatus">Waiting for two calibration taps…</p>
+<p class="hint">Pick the two most widely spaced markings you can see clearly; a longer stretch of tape is more accurate. Caution: many tapes print inches on one edge; tap numbers on the cm edge, or convert (1 inch = 2.54 cm).</p>
+</section>
+<section id="secAI">
+<h2>AI assist (optional)</h2>
+<p>A Google hand-detection model (MediaPipe) can suggest landmarks on all three photos. For palm-down and side views, the app estimates visible edges from image colors; these can be inaccurate. It runs entirely on your device, and the photo never leaves this page. The first use downloads the model (about 10 MB), so it needs internet once. An internet connection is needed to load the AI model. If your viewer blocks it, open this site in Chrome or Safari, or place the points manually.</p>
+<div class="row"><button class="btn ghost" id="aiBtn">Auto-place points with AI</button></div>
+<p id="aiStatus" class="hint">Teal dots are proposals. Check every point against the actual hand edge or crease and drag it to adjust. Side-view finger detection may fail when fingers overlap; select the finger visible and tap manually if needed.</p>
+</section>
+<section id="secMeas">
+<h2 id="measTitle">Tap the measurements</h2>
+<p id="currentItem">—</p>
+<div class="row" id="fingerSelRow" style="display:none">
+<label>Thickness tapped on which finger?
+<select id="fingerSel">
+<option value="0" selected>Index</option>
+<option value="1">Middle</option>
+<option value="2">Ring</option>
+<option value="3">Little</option>
+</select>
+</label>
+</div>
+<div class="row">
+<button class="btn ghost" id="undoBtn">Undo last</button>
+<button class="btn ghost" id="skipBtn">Skip (not visible)</button>
+</div>
+<ol id="itemList"></ol>
+<p class="hint">Zoom in (buttons or pinch) before each tap for the best precision. Drag an empty spot to move the photo around. Each measurement in steps 2 and 3 needs TWO taps: one edge, then the opposite edge. Drag any dot to fine-tune it, or click a line in the list to tap that measurement again.</p>
+</section>
+<details id="secFingers">
+<summary>Fingers present on this hand</summary>
+<p>Leave everything as it is for a typical hand. Set a finger to <b>Missing</b> if it is not there at all: its tap points disappear and the handle is built without its groove. Set it to <b>Shortened</b> if it is much shorter than usual (for example a nub): you still tap its points at the tip it has today, and the size checks accept the small measurements.</p>
+<div class="row">
+<label>Index
+<select id="fsIndex"><option value="present" selected>Present</option><option value="short">Shortened</option><option value="missing">Missing</option></select>
+</label>
+<label>Middle
+<select id="fsMiddle"><option value="present" selected>Present</option><option value="short">Shortened</option><option value="missing">Missing</option></select>
+</label>
+<label>Ring
+<select id="fsRing"><option value="present" selected>Present</option><option value="short">Shortened</option><option value="missing">Missing</option></select>
+</label>
+<label>Little
+<select id="fsLittle"><option value="present" selected>Present</option><option value="short">Shortened</option><option value="missing">Missing</option></select>
+</label>
+<label>Thumb
+<select id="fsThumb"><option value="present" selected>Present</option><option value="missing">Missing</option></select>
+</label>
+</div>
+<p class="hint">Changes apply right away, on every photo. If the thumb is missing, the grip diameter cannot be estimated; type your own measured value in the Generate section when you get there. After any change, click Generate STL again before downloading: the download button hides until the shape matches your current numbers.</p>
+</details>
+<details id="baselinePanel"><summary>Reference hand · fixed baseline</summary><h2>Fixed reference hand · mm</h2><p><a href="orientation-editor.html">Open separate point and region calibration editor</a></p>
+<p>These reference measurements are built into the generator. New-hand inputs are compared against them; using the app never changes this baseline. They are inherited from the original project and have not been verified against the uploaded HY model.</p>
+<table><tr><th>Measurement</th><th>Reference</th></tr>
+<tr><td>Inside grip diameter</td><td>55</td></tr><tr><td>Thumb length / breadth / thickness</td><td>69 / 25 / 22</td></tr>
+<tr><td>Finger lengths (index → pinky)</td><td>75 / 83 / 73 / 62</td></tr><tr><td>Finger widths</td><td>22 / 23 / 20 / 18</td></tr><tr><td>Finger thicknesses</td><td>22 / 20 / 19 / 15</td></tr></table>
+<p>The example below is a separate new-hand profile. Baseline-sized right-hand inputs return the uploaded STL byte-for-byte. Other inputs deform its original vertices relative to this fixed reference.</p></details>
+<section id="manualPanel"><h2>New-hand measurements</h2><p class="hint">Using your saved finger/thumb calibration. Finger overlays wrap around the STL in the corrected direction. Palm length, palm wrapping, and wrist connections are excluded.</p><p>Enter your hand measurements or load the fixed reference as a starting example. All values are in millimetres. For photos, choose Measure photos at the top and upload a photo for each guided step.</p>
+<div class="row"><button class="btn ghost" id="loadBaseline">Load baseline measurements</button></div><p>Fill in your measurements below. Leave a digit’s length blank if it is missing. Blank finger widths or thicknesses are estimated from the other fingers.</p><div id="manualFields"><div class="measurementGrid"><label>Hand length<input type="number" data-field="hand_length" aria-label="Hand length" min="140" max="235" step="0.1"></label><label>Hand breadth<input type="number" data-field="hand_breadth" aria-label="Hand breadth" min="60" max="115" step="0.1"></label><label>Inside grip diameter<input type="number" data-field="grip_diameter_inside" aria-label="Inside grip diameter" min="30" max="85" step="0.1"></label><label>Thumb length<input type="number" data-field="thumb_length" aria-label="Thumb length" min="8" max="105" step="0.1"></label><label>Thumb breadth<input type="number" data-field="thumb_breadth" aria-label="Thumb breadth" min="8" max="36" step="0.1"></label><label>Thumb thickness<input type="number" data-field="thumb_thickness" aria-label="Thumb thickness" min="1" max="50" step="0.1"></label></div><div class="fingerTable"><table><tr><th>Finger</th><th>Length</th><th>Width</th><th>Thickness</th></tr><tr><th>Index</th><td><input type="number" data-field="finger_lengths" data-index="0" aria-label="Index length" min="5" max="115" step="0.1"></td><td><input type="number" data-field="finger_widths" data-index="0" aria-label="Index width" min="5" max="30" step="0.1"></td><td><input type="number" data-field="finger_thicknesses" data-index="0" aria-label="Index thickness" min="4" max="30" step="0.1"></td></tr><tr><th>Middle</th><td><input type="number" data-field="finger_lengths" data-index="1" aria-label="Middle length" min="5" max="115" step="0.1"></td><td><input type="number" data-field="finger_widths" data-index="1" aria-label="Middle width" min="5" max="30" step="0.1"></td><td><input type="number" data-field="finger_thicknesses" data-index="1" aria-label="Middle thickness" min="4" max="30" step="0.1"></td></tr><tr><th>Ring</th><td><input type="number" data-field="finger_lengths" data-index="2" aria-label="Ring length" min="5" max="115" step="0.1"></td><td><input type="number" data-field="finger_widths" data-index="2" aria-label="Ring width" min="5" max="30" step="0.1"></td><td><input type="number" data-field="finger_thicknesses" data-index="2" aria-label="Ring thickness" min="4" max="30" step="0.1"></td></tr><tr><th>Pinky</th><td><input type="number" data-field="finger_lengths" data-index="3" aria-label="Pinky length" min="5" max="115" step="0.1"></td><td><input type="number" data-field="finger_widths" data-index="3" aria-label="Pinky width" min="5" max="30" step="0.1"></td><td><input type="number" data-field="finger_thicknesses" data-index="3" aria-label="Pinky thickness" min="4" max="30" step="0.1"></td></tr></table></div></div><details hidden><summary>Advanced: paste measurements as JSON</summary><textarea id="manualHand" aria-label="New-hand measurements JSON" style="min-height:260px"></textarea></details><button class="btn" id="applyHand">Apply measurements and generate</button><p id="manualError" role="alert"></p></section>
+
+<details id="secResults"><summary>Review measurements and copy JSON</summary>
+<h2>Current measurements</h2>
+<p id="warnBox" style="display:none; color:#7f1d1d; background:#cfa6a6; border:1px solid #a03030; border-radius:0; padding:8px 10px; font-size:13px;"></p>
+<table id="resultsTable"></table>
+<div class="row"><button class="btn" id="copyBtn">Copy JSON</button></div>
+<p id="copyStatus" role="status"></p>
+<textarea id="jsonOut" readonly placeholder="Results JSON appears here as you measure."></textarea>
+<p class="hint">Values marked "est." are estimated, not measured; see the estimation note below for how. All measurements are rounded to the nearest whole millimetre. The grip diameter is estimated from your other measurements; if you measured your grip size with a separate tool, enter it in the Generate section and it is used instead.</p>
+</details>
+</div><div id="visualColumn"><section id="validationPanel"><h2>3D preview</h2><p>Orange wireframe: original baseline. Solid surface: output. Drag to rotate, scroll to zoom. Surface colour can show the finger regions or where the shape grew and shrank.</p><div class="viewBar"><label>Surface colour <select id="surfaceMode"><option value="">Finger regions</option><option value="heat">Shape change</option><option value="plain">Plain</option></select></label><label><input id="showBaseline" type="checkbox" checked> Baseline overlay</label><label><input id="showRegions" type="checkbox" checked> Region labels</label><label><input id="showSlice" type="checkbox" checked> Slice outline</label></div>
+<div class="viewBar"><span class="btnGroup" role="group" aria-label="Camera view"><button class="btn ghost" id="viewFront">Front</button><button class="btn ghost" id="viewSide">Side</button><button class="btn ghost" id="viewEnd">End</button><button class="btn ghost" id="view3d">3D</button></span><span class="btnGroup" role="group" aria-label="Zoom"><button class="btn ghost" id="viewZoomOut" title="Zoom out" aria-label="Zoom out">&minus;</button><button class="btn ghost" id="viewZoomIn" title="Zoom in" aria-label="Zoom in">+</button></span><button class="btn ghost" id="autoRotate" aria-pressed="false">Auto-rotate</button><button class="btn ghost" id="saveView">Save image</button><button class="btn ghost" id="resetValidationView">Reset view</button></div><p id="previewStale" class="buildNotice" role="status" hidden>Preview out of date — generate again to match your current inputs. The shape below is the previous build.</p><p id="probeStatus" role="status">Generate a handle to view the comparison.</p><div class="validationStage"><canvas id="validationSurface" aria-hidden="true"></canvas><canvas id="validationCanvas" aria-label="Rotatable baseline and deformed grip overlay"></canvas><div id="heatLegend" hidden><span id="heatMin"></span><span class="heatRamp" aria-hidden="true"></span><span id="heatMax"></span><small>thinner · unchanged · thicker</small></div></div><p class="hint">Region labels use your saved finger/thumb positions and region sizes. They identify calibrated adjustment areas, not measured anatomical joints. Hand length is a limit check; hand breadth has no direct deformation effect. Movement statistics measure corresponding STL vertices, including repeated vertices. This view helps inspect direction; it does not prove ergonomic fit.</p></section>
+<div id="insights">
+<section id="tilePanel"><h2>At a glance</h2><div id="statTiles" class="tiles"></div>
+<div class="viewBar"><label>Material <select id="material"><option value="1.24">PLA</option><option value="1.27">PETG</option><option value="1.04">ABS</option><option value="1.21">TPU</option></select></label><label>Fill <input id="infill" type="range" min="10" max="100" step="5" value="20"> <output id="infillValue">20%</output></label></div>
+<p class="hint">Print mass is a rough guide: model volume × material density × fill. It ignores wall thickness and supports, and the source mesh is not guaranteed closed.</p></section>
+<div class="pair">
+<section id="sectionPanel"><h2>Cross-section slice</h2><div class="legend"><span><i style="background:#1baf7a"></i>Yours</span><span><i style="background:#eb6834"></i>Reference</span></div><canvas id="sectionCanvas" aria-label="Cross-section of the grip at the chosen position"></canvas><label class="sliderRow">Position <input id="slicePos" type="range" min="0" max="100" step="0.5" value="50" aria-label="Slice position along the handle in millimetres"></label><p id="sectionReadout" role="status">Generate a handle to see its cross-section.</p></section>
+<section id="profilePanel"><h2>Size along the handle</h2><div class="legend"><span><i style="background:#1baf7a"></i>Yours</span><span><i style="background:#eb6834"></i>Reference</span></div><div id="profileChart"><div id="profilePlot"></div><div id="profileTip" hidden></div></div><p class="hint">Average of the grip's two cross-section extents at each point along the handle. Click or drag on the chart to move the slice.</p></section>
+</div>
+<section id="comparePanel"><h2>Your hand versus the reference hand</h2><div class="legend"><span><i style="background:#2a78d6"></i>Smaller than reference</span><span><i style="background:#e34948"></i>Larger than reference</span></div><div id="compareChart"></div><p class="hint">Bars show the percentage difference for each measurement, capped at ±30%. Hand length is only a limit check and hand breadth does not reshape the grip directly.</p></section>
+</div>
+</div><div id="buildColumn"><section id="secGen">
+<h2>Generate the STL</h2>
+<p>Builds an experimental STL from the measurements above. Mesh repair and validation are required before printing. Right-hand grip: deforms the original HY model relative to the fixed reference hand. Baseline right-hand inputs return the original file unchanged. Adjustment regions use your installed grip-calibration.json. The contact mapping and skeletal pose remain estimates.</p>
+<div class="row">
+
+<label>Grip diameter override (mm, optional)
+<input id="gripOverride" type="number" step="0.5" placeholder="Enter mm" />
+</label>
+<button class="btn" id="genBtn">Generate STL</button>
+</div>
+<p id="genStatus" style="display:none; color:#7f1d1d; background:#cfa6a6; border:1px solid #a03030; border-radius:0; padding:8px 10px; font-size:13px;"></p>
+<div id="genStats"></div>
+<p id="meshNotice" class="buildNotice" role="status" hidden></p>
+<div class="row"><button class="btn" id="dlBtn" style="display:none">Download STL</button></div>
+<p class="hint">The box above is optional only after the photos provide enough measurements for an estimate. A blank box has no value. Use the override if you measured your grip diameter with a separate tool: type it in and it replaces the estimate. Estimated thicknesses are used as-is (they are flagged in the JSON). If downloads are blocked by an embedded viewer, open this site in Chrome or Safari. For a local copy, keep index.html and the entire assets folder together. Manual measurement and STL generation work offline; AI assistance requires its external model to load.</p>
+</section>
+<details>
+<summary>The three photos</summary>
+<ul>
+<li><b>Photo 1 (palm up):</b> tape lying along the fingers, its zero at the crease where the hand meets the wrist, fingertips lightly against the tape edge. Hold the camera straight overhead. Gives hand length, finger lengths, thumb length.</li>
+<li><b>Photo 2 (palm down):</b> back of the hand up, tape lying across the hand, touching it. Gives hand breadth, thumb breadth, and finger widths.</li>
+<li><b>Photo 3 (side view):</b> hand resting on its side so ONE finger is seen from the side, with the tape upright behind that finger, camera straight-on. Gives ONE finger thickness; the other three are estimated.</li>
+
+<li>All three: cm edge numbers only, no shadows across the creases, whole hand + tape in frame, camera level (use the level indicator).</li>
+</ul>
+</details>
+<details>
+<summary>How the estimated thicknesses work</summary>
+<ul>
+<li>You tap ONE finger thickness in photo 3 and say which finger it was.</li>
+<li>The other three are estimated from the finger widths you measured in photo 2, using a typical thickness-to-width ratio for each finger (index 1.00, middle 0.87, ring 0.95, little 0.83).</li>
+<li>Thumb thickness is always estimated: about 0.88 × thumb breadth (from photo 2).</li>
+<li>Estimated values are marked "est." in the table and flagged in the JSON under <b>_estimated</b>.</li>
+<li>These ratios come from one carefully measured hand, so they are a reasonable starting point for any hand; expect a few mm of difference on other people. A wrong estimate only slightly changes the depth of that finger's groove.</li>
+<li>Grip diameter is estimated as (thumb length + middle finger length + thumb thickness) ÷ π. It is a rough estimate; a grip diameter measured with a separate tool always takes precedence.</li>
+<li>If the middle finger is missing, the longest finger you have stands in for it in that estimate. If the thumb is missing, no estimate is possible: type your measured grip diameter in the Generate section.</li>
+<li>If a finger is present but you skip one of its taps, its length or width is filled with the average of your other measured values and marked "est.".</li>
+</ul>
+</details>
+</div>
+</aside>
+</div>
+<script src="assets/template.js"></script>
+<script src="assets/generator.js"></script>
+<script src="assets/source-model.js"></script>
+<script src="assets/calibration.js"></script>
+<script src="assets/deform-source.js"></script>
+<script src="assets/grip-renderer.js?v=20261110-insights"></script>
+<script src="assets/grip-surface.js"></script>
+<script src="assets/hand-overlay.js?v=20261102b"></script>
+<script src="assets/validation.js?v=20261110-insights"></script>
+<script src="assets/insights.js?v=20261110-insights"></script>
+<script src="assets/hand-edge-assist.js"></script>
+<script src="assets/app.js?v=20261102-demo2"></script>
+</body>
+</html>

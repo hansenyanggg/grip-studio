@@ -1,0 +1,57 @@
+[
+  {
+    "step": 0,
+    "blend": 0,
+    "maximum_vertex_movement_from_previous_mm": 0
+  },
+  {
+    "step": 1,
+    "blend": 0.1,
+    "maximum_vertex_movement_from_previous_mm": 2.2370081902608927
+  },
+  {
+    "step": 2,
+    "blend": 0.2,
+    "maximum_vertex_movement_from_previous_mm": 2.2370081959820585
+  },
+  {
+    "step": 3,
+    "blend": 0.3,
+    "maximum_vertex_movement_from_previous_mm": 2.96131984631495
+  },
+  {
+    "step": 4,
+    "blend": 0.4,
+    "maximum_vertex_movement_from_previous_mm": 4.545973812350325
+  },
+  {
+    "step": 5,
+    "blend": 0.5,
+    "maximum_vertex_movement_from_previous_mm": 5.182797768505258
+  },
+  {
+    "step": 6,
+    "blend": 0.6,
+    "maximum_vertex_movement_from_previous_mm": 5.092891472101732
+  },
+  {
+    "step": 7,
+    "blend": 0.7,
+    "maximum_vertex_movement_from_previous_mm": 2.635144346616442
+  },
+  {
+    "step": 8,
+    "blend": 0.8,
+    "maximum_vertex_movement_from_previous_mm": 2.237008198842642
+  },
+  {
+    "step": 9,
+    "blend": 0.9,
+    "maximum_vertex_movement_from_previous_mm": 2.237008198842642
+  },
+  {
+    "step": 10,
+    "blend": 1,
+    "maximum_vertex_movement_from_previous_mm": 2.237008198842642
+  }
+]

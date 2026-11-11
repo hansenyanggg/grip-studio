@@ -1,0 +1,92 @@
+[
+  {
+    "label": "female_P01",
+    "n": 1986,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 160.0,
+    "hand_breadth_mm": 76.0,
+    "measured_palm_length_mm": 95.0,
+    "estimated_grip_mm": 45.44696500675976
+  },
+  {
+    "label": "female_P05",
+    "n": 1986,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 165.0,
+    "hand_breadth_mm": 77.0,
+    "measured_palm_length_mm": 99.0,
+    "estimated_grip_mm": 46.425644721834445
+  },
+  {
+    "label": "female_P50",
+    "n": 1986,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 180.0,
+    "hand_breadth_mm": 79.0,
+    "measured_palm_length_mm": 106.0,
+    "estimated_grip_mm": 50.870847209788685
+  },
+  {
+    "label": "female_P95",
+    "n": 1986,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 199.0,
+    "hand_breadth_mm": 79.0,
+    "measured_palm_length_mm": 121.0,
+    "estimated_grip_mm": 54.34042496919201
+  },
+  {
+    "label": "female_P99",
+    "n": 1986,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 207.0,
+    "hand_breadth_mm": 81.0,
+    "measured_palm_length_mm": 118.0,
+    "estimated_grip_mm": 58.93137987871464
+  },
+  {
+    "label": "male_P01",
+    "n": 4082,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 172.0,
+    "hand_breadth_mm": 85.0,
+    "measured_palm_length_mm": 99.0,
+    "estimated_grip_mm": 50.12207986761394
+  },
+  {
+    "label": "male_P05",
+    "n": 4082,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 177.0,
+    "hand_breadth_mm": 86.0,
+    "measured_palm_length_mm": 107.0,
+    "estimated_grip_mm": 49.82752003795346
+  },
+  {
+    "label": "male_P50",
+    "n": 4082,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 193.0,
+    "hand_breadth_mm": 90.0,
+    "measured_palm_length_mm": 122.0,
+    "estimated_grip_mm": 52.324922247139106
+  },
+  {
+    "label": "male_P95",
+    "n": 4082,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 210.0,
+    "hand_breadth_mm": 92.0,
+    "measured_palm_length_mm": 124.0,
+    "estimated_grip_mm": 59.22948743466076
+  },
+  {
+    "label": "male_P99",
+    "n": 4082,
+    "percentile_dimension": "handlength",
+    "hand_length_mm": 218.0,
+    "hand_breadth_mm": 93.0,
+    "measured_palm_length_mm": 123.0,
+    "estimated_grip_mm": 63.10143648362705
+  }
+]
